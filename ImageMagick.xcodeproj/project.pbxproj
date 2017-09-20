@@ -92,7 +92,6 @@
 		D8554E201F62FD8600687A6E /* ps.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9F1F62FD8600687A6E /* ps.c */; };
 		D8554E211F62FD8600687A6E /* ps2.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA01F62FD8600687A6E /* ps2.c */; };
 		D8554E221F62FD8600687A6E /* ps3.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA11F62FD8600687A6E /* ps3.c */; };
-		D8554E231F62FD8600687A6E /* psd-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554DA21F62FD8600687A6E /* psd-private.h */; };
 		D8554E241F62FD8600687A6E /* psd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA31F62FD8600687A6E /* psd.c */; };
 		D8554E251F62FD8600687A6E /* pwp.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA41F62FD8600687A6E /* pwp.c */; };
 		D8554E261F62FD8600687A6E /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA51F62FD8600687A6E /* raw.c */; };
@@ -137,258 +136,100 @@
 		D8554E4D1F62FD8600687A6E /* xwd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCC1F62FD8600687A6E /* xwd.c */; };
 		D8554E4E1F62FD8600687A6E /* ycbcr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCD1F62FD8600687A6E /* ycbcr.c */; };
 		D8554E4F1F62FD8600687A6E /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCE1F62FD8600687A6E /* yuv.c */; };
-		D8554F571F62FDA700687A6E /* accelerate-kernels-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E511F62FDA700687A6E /* accelerate-kernels-private.h */; };
-		D8554F581F62FDA700687A6E /* accelerate-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E521F62FDA700687A6E /* accelerate-private.h */; };
 		D8554F591F62FDA700687A6E /* accelerate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E531F62FDA700687A6E /* accelerate.c */; };
-		D8554F5A1F62FDA700687A6E /* animate-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E541F62FDA700687A6E /* animate-private.h */; };
 		D8554F5B1F62FDA700687A6E /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E551F62FDA700687A6E /* animate.c */; };
-		D8554F5C1F62FDA700687A6E /* animate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E561F62FDA700687A6E /* animate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F5D1F62FDA700687A6E /* annotate-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E571F62FDA700687A6E /* annotate-private.h */; };
 		D8554F5E1F62FDA700687A6E /* annotate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E581F62FDA700687A6E /* annotate.c */; };
-		D8554F5F1F62FDA700687A6E /* annotate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E591F62FDA700687A6E /* annotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F601F62FDA700687A6E /* artifact.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5A1F62FDA700687A6E /* artifact.c */; };
-		D8554F611F62FDA700687A6E /* artifact.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E5B1F62FDA700687A6E /* artifact.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F621F62FDA700687A6E /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5C1F62FDA700687A6E /* attribute.c */; };
-		D8554F631F62FDA700687A6E /* attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E5D1F62FDA700687A6E /* attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F641F62FDA700687A6E /* blob-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E5E1F62FDA700687A6E /* blob-private.h */; };
 		D8554F651F62FDA700687A6E /* blob.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5F1F62FDA700687A6E /* blob.c */; };
-		D8554F661F62FDA700687A6E /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E601F62FDA700687A6E /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F671F62FDA700687A6E /* cache-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E611F62FDA700687A6E /* cache-private.h */; };
 		D8554F681F62FDA700687A6E /* cache-view.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E621F62FDA700687A6E /* cache-view.c */; };
-		D8554F691F62FDA700687A6E /* cache-view.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E631F62FDA700687A6E /* cache-view.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F6A1F62FDA700687A6E /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E641F62FDA700687A6E /* cache.c */; };
-		D8554F6B1F62FDA700687A6E /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E651F62FDA700687A6E /* cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F6C1F62FDA700687A6E /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E661F62FDA700687A6E /* channel.c */; };
-		D8554F6D1F62FDA700687A6E /* channel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E671F62FDA700687A6E /* channel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F6E1F62FDA700687A6E /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E681F62FDA700687A6E /* cipher.c */; };
-		D8554F6F1F62FDA700687A6E /* cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E691F62FDA700687A6E /* cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F701F62FDA700687A6E /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E6A1F62FDA700687A6E /* client.c */; };
-		D8554F711F62FDA700687A6E /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E6B1F62FDA700687A6E /* client.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F721F62FDA700687A6E /* coder-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E6C1F62FDA700687A6E /* coder-private.h */; };
 		D8554F731F62FDA700687A6E /* coder.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E6D1F62FDA700687A6E /* coder.c */; };
-		D8554F741F62FDA700687A6E /* coder.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E6E1F62FDA700687A6E /* coder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F751F62FDA700687A6E /* color-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E6F1F62FDA700687A6E /* color-private.h */; };
 		D8554F761F62FDA700687A6E /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E701F62FDA700687A6E /* color.c */; };
-		D8554F771F62FDA700687A6E /* color.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E711F62FDA700687A6E /* color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F781F62FDA700687A6E /* colormap-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E721F62FDA700687A6E /* colormap-private.h */; };
 		D8554F791F62FDA700687A6E /* colormap.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E731F62FDA700687A6E /* colormap.c */; };
-		D8554F7A1F62FDA700687A6E /* colormap.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E741F62FDA700687A6E /* colormap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F7B1F62FDA700687A6E /* colorspace-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E751F62FDA700687A6E /* colorspace-private.h */; };
 		D8554F7C1F62FDA700687A6E /* colorspace.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E761F62FDA700687A6E /* colorspace.c */; };
-		D8554F7D1F62FDA700687A6E /* colorspace.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E771F62FDA700687A6E /* colorspace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F7E1F62FDA700687A6E /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E781F62FDA700687A6E /* compare.c */; };
-		D8554F7F1F62FDA700687A6E /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E791F62FDA700687A6E /* compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F801F62FDA700687A6E /* composite-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E7A1F62FDA700687A6E /* composite-private.h */; };
 		D8554F811F62FDA700687A6E /* composite.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E7B1F62FDA700687A6E /* composite.c */; };
-		D8554F821F62FDA700687A6E /* composite.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E7C1F62FDA700687A6E /* composite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F831F62FDA700687A6E /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E7D1F62FDA700687A6E /* compress.c */; };
-		D8554F841F62FDA700687A6E /* compress.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E7E1F62FDA700687A6E /* compress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F851F62FDA700687A6E /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E7F1F62FDA700687A6E /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F861F62FDA700687A6E /* configure-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E801F62FDA700687A6E /* configure-private.h */; };
 		D8554F871F62FDA700687A6E /* configure.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E811F62FDA700687A6E /* configure.c */; };
-		D8554F881F62FDA700687A6E /* configure.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E821F62FDA700687A6E /* configure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F891F62FDA700687A6E /* constitute-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E831F62FDA700687A6E /* constitute-private.h */; };
 		D8554F8A1F62FDA700687A6E /* constitute.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E841F62FDA700687A6E /* constitute.c */; };
-		D8554F8B1F62FDA700687A6E /* constitute.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E851F62FDA700687A6E /* constitute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F8C1F62FDA700687A6E /* decorate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E861F62FDA700687A6E /* decorate.c */; };
-		D8554F8D1F62FDA700687A6E /* decorate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E871F62FDA700687A6E /* decorate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F8E1F62FDA700687A6E /* delegate-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E881F62FDA700687A6E /* delegate-private.h */; };
 		D8554F8F1F62FDA700687A6E /* delegate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E891F62FDA700687A6E /* delegate.c */; };
-		D8554F901F62FDA700687A6E /* delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E8A1F62FDA700687A6E /* delegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F911F62FDA700687A6E /* deprecate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E8B1F62FDA700687A6E /* deprecate.c */; };
-		D8554F921F62FDA700687A6E /* deprecate.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E8C1F62FDA700687A6E /* deprecate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F931F62FDA700687A6E /* display-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E8D1F62FDA700687A6E /* display-private.h */; };
 		D8554F941F62FDA700687A6E /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E8E1F62FDA700687A6E /* display.c */; };
-		D8554F951F62FDA700687A6E /* display.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E8F1F62FDA700687A6E /* display.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F961F62FDA700687A6E /* distort.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E901F62FDA700687A6E /* distort.c */; };
-		D8554F971F62FDA700687A6E /* distort.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E911F62FDA700687A6E /* distort.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554F981F62FDA700687A6E /* distribute-cache-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E921F62FDA700687A6E /* distribute-cache-private.h */; };
 		D8554F991F62FDA700687A6E /* distribute-cache.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E931F62FDA700687A6E /* distribute-cache.c */; };
-		D8554F9A1F62FDA700687A6E /* distribute-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E941F62FDA700687A6E /* distribute-cache.h */; };
-		D8554F9B1F62FDA700687A6E /* draw-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E951F62FDA700687A6E /* draw-private.h */; };
 		D8554F9C1F62FDA700687A6E /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E961F62FDA700687A6E /* draw.c */; };
-		D8554F9D1F62FDA700687A6E /* draw.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E971F62FDA700687A6E /* draw.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554F9E1F62FDA700687A6E /* effect.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E981F62FDA700687A6E /* effect.c */; };
-		D8554F9F1F62FDA700687A6E /* effect.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E991F62FDA700687A6E /* effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FA01F62FDA700687A6E /* enhance.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9A1F62FDA700687A6E /* enhance.c */; };
-		D8554FA11F62FDA700687A6E /* enhance.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E9B1F62FDA700687A6E /* enhance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FA21F62FDA700687A6E /* exception-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E9C1F62FDA700687A6E /* exception-private.h */; };
 		D8554FA31F62FDA700687A6E /* exception.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9D1F62FDA700687A6E /* exception.c */; };
-		D8554FA41F62FDA700687A6E /* exception.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554E9E1F62FDA700687A6E /* exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FA51F62FDA700687A6E /* feature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9F1F62FDA700687A6E /* feature.c */; };
-		D8554FA61F62FDA700687A6E /* feature.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA01F62FDA700687A6E /* feature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FA71F62FDA700687A6E /* fourier.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA11F62FDA700687A6E /* fourier.c */; };
-		D8554FA81F62FDA700687A6E /* fourier.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA21F62FDA700687A6E /* fourier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FA91F62FDA700687A6E /* fx-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA31F62FDA700687A6E /* fx-private.h */; };
 		D8554FAA1F62FDA700687A6E /* fx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA41F62FDA700687A6E /* fx.c */; };
-		D8554FAB1F62FDA700687A6E /* fx.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA51F62FDA700687A6E /* fx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FAC1F62FDA700687A6E /* gem-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA61F62FDA700687A6E /* gem-private.h */; };
 		D8554FAD1F62FDA700687A6E /* gem.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA71F62FDA700687A6E /* gem.c */; };
-		D8554FAE1F62FDA700687A6E /* gem.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EA81F62FDA700687A6E /* gem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FAF1F62FDA700687A6E /* geometry.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA91F62FDA700687A6E /* geometry.c */; };
-		D8554FB01F62FDA700687A6E /* geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EAA1F62FDA700687A6E /* geometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FB11F62FDA700687A6E /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EAB1F62FDA700687A6E /* histogram.c */; };
-		D8554FB21F62FDA700687A6E /* histogram.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EAC1F62FDA700687A6E /* histogram.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FB31F62FDA700687A6E /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EAD1F62FDA700687A6E /* identify.c */; };
-		D8554FB41F62FDA700687A6E /* identify.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EAE1F62FDA700687A6E /* identify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FB51F62FDA700687A6E /* image-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EAF1F62FDA700687A6E /* image-private.h */; };
 		D8554FB61F62FDA700687A6E /* image-view.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB01F62FDA700687A6E /* image-view.c */; };
-		D8554FB71F62FDA700687A6E /* image-view.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EB11F62FDA700687A6E /* image-view.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FB81F62FDA700687A6E /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB21F62FDA700687A6E /* image.c */; };
-		D8554FB91F62FDA700687A6E /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EB31F62FDA700687A6E /* image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FBA1F62FDA700687A6E /* layer.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB51F62FDA700687A6E /* layer.c */; };
-		D8554FBB1F62FDA700687A6E /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EB61F62FDA700687A6E /* layer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FBC1F62FDA700687A6E /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB81F62FDA700687A6E /* linked-list.c */; };
-		D8554FBD1F62FDA700687A6E /* linked-list.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EB91F62FDA700687A6E /* linked-list.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FBE1F62FDA700687A6E /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EBA1F62FDA700687A6E /* list.c */; };
-		D8554FBF1F62FDA700687A6E /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EBB1F62FDA700687A6E /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FC01F62FDA700687A6E /* locale-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EBC1F62FDA700687A6E /* locale-private.h */; };
 		D8554FC11F62FDA700687A6E /* locale.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EBD1F62FDA700687A6E /* locale.c */; };
-		D8554FC21F62FDA700687A6E /* locale_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EBE1F62FDA700687A6E /* locale_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FC31F62FDA700687A6E /* log-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EBF1F62FDA700687A6E /* log-private.h */; };
 		D8554FC41F62FDA700687A6E /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC01F62FDA700687A6E /* log.c */; };
-		D8554FC51F62FDA700687A6E /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC11F62FDA700687A6E /* log.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FC61F62FDA700687A6E /* magic-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC21F62FDA700687A6E /* magic-private.h */; };
 		D8554FC71F62FDA700687A6E /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC31F62FDA700687A6E /* magic.c */; };
-		D8554FC81F62FDA700687A6E /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC41F62FDA700687A6E /* magic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FC91F62FDA700687A6E /* magick-baseconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC51F62FDA700687A6E /* magick-baseconfig.h */; };
-		D8554FCA1F62FDA700687A6E /* magick-config.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC61F62FDA700687A6E /* magick-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FCB1F62FDA700687A6E /* magick-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC71F62FDA700687A6E /* magick-private.h */; };
-		D8554FCC1F62FDA700687A6E /* magick-type.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EC81F62FDA700687A6E /* magick-type.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FCD1F62FDA700687A6E /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC91F62FDA700687A6E /* magick.c */; };
-		D8554FCE1F62FDA700687A6E /* magick.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ECA1F62FDA700687A6E /* magick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FCF1F62FDA700687A6E /* MagickCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ECD1F62FDA700687A6E /* MagickCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FD01F62FDA700687A6E /* matrix-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED11F62FDA700687A6E /* matrix-private.h */; };
 		D8554FD11F62FDA700687A6E /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554ED21F62FDA700687A6E /* matrix.c */; };
-		D8554FD21F62FDA700687A6E /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED31F62FDA700687A6E /* matrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FD31F62FDA700687A6E /* memory-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED41F62FDA700687A6E /* memory-private.h */; };
 		D8554FD41F62FDA700687A6E /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554ED51F62FDA700687A6E /* memory.c */; };
-		D8554FD51F62FDA700687A6E /* memory_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED61F62FDA700687A6E /* memory_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FD61F62FDA700687A6E /* method-attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED71F62FDA700687A6E /* method-attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FD71F62FDA700687A6E /* methods-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED81F62FDA700687A6E /* methods-private.h */; };
-		D8554FD81F62FDA700687A6E /* methods.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554ED91F62FDA700687A6E /* methods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FD91F62FDA700687A6E /* mime-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EDA1F62FDA700687A6E /* mime-private.h */; };
 		D8554FDA1F62FDA700687A6E /* mime.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EDB1F62FDA700687A6E /* mime.c */; };
-		D8554FDB1F62FDA700687A6E /* mime.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EDC1F62FDA700687A6E /* mime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FDC1F62FDA700687A6E /* module-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EDD1F62FDA700687A6E /* module-private.h */; };
 		D8554FDD1F62FDA700687A6E /* module.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EDE1F62FDA700687A6E /* module.c */; };
-		D8554FDE1F62FDA700687A6E /* module.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EDF1F62FDA700687A6E /* module.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FDF1F62FDA700687A6E /* monitor-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE01F62FDA700687A6E /* monitor-private.h */; };
 		D8554FE01F62FDA700687A6E /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE11F62FDA700687A6E /* monitor.c */; };
-		D8554FE11F62FDA700687A6E /* monitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE21F62FDA700687A6E /* monitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FE21F62FDA700687A6E /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE31F62FDA700687A6E /* montage.c */; };
-		D8554FE31F62FDA700687A6E /* montage.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE41F62FDA700687A6E /* montage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FE41F62FDA700687A6E /* morphology-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE51F62FDA700687A6E /* morphology-private.h */; };
 		D8554FE51F62FDA700687A6E /* morphology.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE61F62FDA700687A6E /* morphology.c */; };
-		D8554FE61F62FDA700687A6E /* morphology.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE71F62FDA700687A6E /* morphology.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FE71F62FDA700687A6E /* nt-base-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EE81F62FDA700687A6E /* nt-base-private.h */; };
 		D8554FE81F62FDA700687A6E /* nt-base.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE91F62FDA700687A6E /* nt-base.c */; };
-		D8554FE91F62FDA700687A6E /* nt-base.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EEA1F62FDA700687A6E /* nt-base.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FEA1F62FDA700687A6E /* nt-feature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EEB1F62FDA700687A6E /* nt-feature.c */; };
-		D8554FEB1F62FDA700687A6E /* nt-feature.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EEC1F62FDA700687A6E /* nt-feature.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FEC1F62FDA700687A6E /* opencl-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EED1F62FDA700687A6E /* opencl-private.h */; };
 		D8554FED1F62FDA700687A6E /* opencl.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EEE1F62FDA700687A6E /* opencl.c */; };
-		D8554FEE1F62FDA700687A6E /* opencl.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EEF1F62FDA700687A6E /* opencl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FEF1F62FDA700687A6E /* option-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF01F62FDA700687A6E /* option-private.h */; };
 		D8554FF01F62FDA700687A6E /* option.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF11F62FDA700687A6E /* option.c */; };
-		D8554FF11F62FDA700687A6E /* option.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF21F62FDA700687A6E /* option.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FF21F62FDA700687A6E /* paint.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF31F62FDA700687A6E /* paint.c */; };
-		D8554FF31F62FDA700687A6E /* paint.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF41F62FDA700687A6E /* paint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FF41F62FDA700687A6E /* pixel-accessor.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF51F62FDA700687A6E /* pixel-accessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FF51F62FDA700687A6E /* pixel-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF61F62FDA700687A6E /* pixel-private.h */; };
 		D8554FF61F62FDA700687A6E /* pixel.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF71F62FDA700687A6E /* pixel.c */; };
-		D8554FF71F62FDA700687A6E /* pixel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF81F62FDA700687A6E /* pixel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FF81F62FDA700687A6E /* policy-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EF91F62FDA700687A6E /* policy-private.h */; };
 		D8554FF91F62FDA700687A6E /* policy.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFA1F62FDA700687A6E /* policy.c */; };
-		D8554FFA1F62FDA700687A6E /* policy.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EFB1F62FDA700687A6E /* policy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8554FFB1F62FDA700687A6E /* prepress.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFC1F62FDA700687A6E /* prepress.c */; };
-		D8554FFC1F62FDA700687A6E /* prepress.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EFD1F62FDA700687A6E /* prepress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8554FFD1F62FDA700687A6E /* profile-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554EFE1F62FDA700687A6E /* profile-private.h */; };
 		D8554FFE1F62FDA700687A6E /* profile.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFF1F62FDA700687A6E /* profile.c */; };
-		D8554FFF1F62FDA700687A6E /* profile.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F001F62FDA700687A6E /* profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550001F62FDA700687A6E /* property.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F011F62FDA700687A6E /* property.c */; };
-		D85550011F62FDA700687A6E /* property.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F021F62FDA700687A6E /* property.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550021F62FDA700687A6E /* quantize.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F031F62FDA700687A6E /* quantize.c */; };
-		D85550031F62FDA700687A6E /* quantize.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F041F62FDA700687A6E /* quantize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550041F62FDA700687A6E /* quantum-export.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F051F62FDA700687A6E /* quantum-export.c */; };
 		D85550051F62FDA700687A6E /* quantum-import.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F061F62FDA700687A6E /* quantum-import.c */; };
-		D85550061F62FDA700687A6E /* quantum-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F071F62FDA700687A6E /* quantum-private.h */; };
 		D85550071F62FDA700687A6E /* quantum.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F081F62FDA700687A6E /* quantum.c */; };
-		D85550081F62FDA700687A6E /* quantum.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F091F62FDA700687A6E /* quantum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550091F62FDA700687A6E /* random-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F0A1F62FDA700687A6E /* random-private.h */; };
 		D855500A1F62FDA700687A6E /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F0B1F62FDA700687A6E /* random.c */; };
-		D855500B1F62FDA700687A6E /* random_-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F0C1F62FDA700687A6E /* random_-private.h */; };
-		D855500C1F62FDA700687A6E /* random_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F0D1F62FDA700687A6E /* random_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855500D1F62FDA700687A6E /* registry-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F0E1F62FDA700687A6E /* registry-private.h */; };
 		D855500E1F62FDA700687A6E /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F0F1F62FDA700687A6E /* registry.c */; };
-		D855500F1F62FDA700687A6E /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F101F62FDA700687A6E /* registry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550101F62FDA700687A6E /* resample-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F111F62FDA700687A6E /* resample-private.h */; };
 		D85550111F62FDA700687A6E /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F121F62FDA700687A6E /* resample.c */; };
-		D85550121F62FDA700687A6E /* resample.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F131F62FDA700687A6E /* resample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550131F62FDA700687A6E /* resize-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F141F62FDA700687A6E /* resize-private.h */; };
 		D85550141F62FDA700687A6E /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F151F62FDA700687A6E /* resize.c */; };
-		D85550151F62FDA700687A6E /* resize.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F161F62FDA700687A6E /* resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550161F62FDA700687A6E /* resource-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F171F62FDA700687A6E /* resource-private.h */; };
 		D85550171F62FDA700687A6E /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F181F62FDA700687A6E /* resource.c */; };
-		D85550181F62FDA700687A6E /* resource_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F191F62FDA700687A6E /* resource_.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550191F62FDA700687A6E /* segment.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1A1F62FDA700687A6E /* segment.c */; };
-		D855501A1F62FDA700687A6E /* segment.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F1B1F62FDA700687A6E /* segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855501B1F62FDA700687A6E /* semaphore-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F1C1F62FDA700687A6E /* semaphore-private.h */; };
 		D855501C1F62FDA700687A6E /* semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1D1F62FDA700687A6E /* semaphore.c */; };
-		D855501D1F62FDA700687A6E /* semaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F1E1F62FDA700687A6E /* semaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D855501E1F62FDA700687A6E /* shear.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1F1F62FDA700687A6E /* shear.c */; };
-		D855501F1F62FDA700687A6E /* shear.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F201F62FDA700687A6E /* shear.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550201F62FDA700687A6E /* signature-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F211F62FDA700687A6E /* signature-private.h */; };
 		D85550211F62FDA700687A6E /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F221F62FDA700687A6E /* signature.c */; };
-		D85550221F62FDA700687A6E /* signature.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F231F62FDA700687A6E /* signature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550231F62FDA700687A6E /* splay-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F241F62FDA700687A6E /* splay-tree.c */; };
-		D85550241F62FDA700687A6E /* splay-tree.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F251F62FDA700687A6E /* splay-tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550251F62FDA700687A6E /* static.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F261F62FDA700687A6E /* static.c */; };
-		D85550261F62FDA700687A6E /* static.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F271F62FDA700687A6E /* static.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550271F62FDA700687A6E /* statistic.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F281F62FDA700687A6E /* statistic.c */; };
-		D85550281F62FDA700687A6E /* statistic.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F291F62FDA700687A6E /* statistic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550291F62FDA700687A6E /* stream-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F2A1F62FDA700687A6E /* stream-private.h */; };
 		D855502A1F62FDA700687A6E /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F2B1F62FDA700687A6E /* stream.c */; };
-		D855502B1F62FDA700687A6E /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F2C1F62FDA700687A6E /* stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855502C1F62FDA700687A6E /* string-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F2D1F62FDA700687A6E /* string-private.h */; };
 		D855502D1F62FDA700687A6E /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F2E1F62FDA700687A6E /* string.c */; };
-		D855502E1F62FDA700687A6E /* string_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F2F1F62FDA700687A6E /* string_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855502F1F62FDA700687A6E /* studio.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F301F62FDA700687A6E /* studio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550301F62FDA700687A6E /* thread-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F311F62FDA700687A6E /* thread-private.h */; };
 		D85550311F62FDA700687A6E /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F321F62FDA700687A6E /* thread.c */; };
-		D85550321F62FDA700687A6E /* thread_.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F331F62FDA700687A6E /* thread_.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550331F62FDA700687A6E /* threshold.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F341F62FDA700687A6E /* threshold.c */; };
-		D85550341F62FDA700687A6E /* threshold.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F351F62FDA700687A6E /* threshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550351F62FDA700687A6E /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F361F62FDA700687A6E /* timer.c */; };
-		D85550361F62FDA700687A6E /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F371F62FDA700687A6E /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550371F62FDA700687A6E /* token-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F381F62FDA700687A6E /* token-private.h */; };
 		D85550381F62FDA700687A6E /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F391F62FDA700687A6E /* token.c */; };
-		D85550391F62FDA700687A6E /* token.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F3A1F62FDA700687A6E /* token.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855503A1F62FDA700687A6E /* transform-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F3B1F62FDA700687A6E /* transform-private.h */; };
 		D855503B1F62FDA700687A6E /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F3C1F62FDA700687A6E /* transform.c */; };
-		D855503C1F62FDA700687A6E /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F3D1F62FDA700687A6E /* transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855503D1F62FDA700687A6E /* type-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F3E1F62FDA700687A6E /* type-private.h */; };
 		D855503E1F62FDA700687A6E /* type.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F3F1F62FDA700687A6E /* type.c */; };
-		D855503F1F62FDA700687A6E /* type.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F401F62FDA700687A6E /* type.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550401F62FDA700687A6E /* utility-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F411F62FDA700687A6E /* utility-private.h */; };
 		D85550411F62FDA700687A6E /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F421F62FDA700687A6E /* utility.c */; };
-		D85550421F62FDA700687A6E /* utility.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F431F62FDA700687A6E /* utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550431F62FDA700687A6E /* version-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F441F62FDA700687A6E /* version-private.h */; };
 		D85550441F62FDA700687A6E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F451F62FDA700687A6E /* version.c */; };
-		D85550451F62FDA700687A6E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F461F62FDA700687A6E /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550461F62FDA700687A6E /* vision.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F491F62FDA700687A6E /* vision.c */; };
-		D85550471F62FDA700687A6E /* vision.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F4A1F62FDA700687A6E /* vision.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550481F62FDA700687A6E /* vms.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F4B1F62FDA700687A6E /* vms.c */; };
-		D85550491F62FDA700687A6E /* vms.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F4C1F62FDA700687A6E /* vms.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855504A1F62FDA700687A6E /* widget-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F4D1F62FDA700687A6E /* widget-private.h */; };
 		D855504B1F62FDA700687A6E /* widget.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F4E1F62FDA700687A6E /* widget.c */; };
-		D855504C1F62FDA700687A6E /* widget.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F4F1F62FDA700687A6E /* widget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D855504D1F62FDA700687A6E /* xml-tree-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F501F62FDA700687A6E /* xml-tree-private.h */; };
 		D855504E1F62FDA700687A6E /* xml-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F511F62FDA700687A6E /* xml-tree.c */; };
-		D855504F1F62FDA700687A6E /* xml-tree.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F521F62FDA700687A6E /* xml-tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85550501F62FDA700687A6E /* xwindow-private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F541F62FDA700687A6E /* xwindow-private.h */; };
 		D85550511F62FDA700687A6E /* xwindow.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F551F62FDA700687A6E /* xwindow.c */; };
-		D85550521F62FDA700687A6E /* xwindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D8554F561F62FDA700687A6E /* xwindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85550941F62FDFD00687A6E /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550531F62FDF800687A6E /* animate.c */; };
 		D85550951F62FDFD00687A6E /* mogrify.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550551F62FDF800687A6E /* mogrify.c */; };
 		D85550961F62FDFD00687A6E /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550571F62FDF800687A6E /* stream.c */; };
@@ -417,18 +258,6 @@
 		D8DF00C01F71325E0013DB97 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DF00BE1F71325E0013DB97 /* libpng.a */; };
 		D8E3A1241F713B6D009B22CD /* libMagickCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D813C5921F55BFCA0036DB51 /* libMagickCore.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D813C7111F55C39E0036DB51 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		214A5BD71EAA1D6100505143 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -1520,175 +1349,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		D813C5901F55BFCA0036DB51 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D85550371F62FDA700687A6E /* token-private.h in Headers */,
-				D8554FA21F62FDA700687A6E /* exception-private.h in Headers */,
-				D8554FFD1F62FDA700687A6E /* profile-private.h in Headers */,
-				D8554FA61F62FDA700687A6E /* feature.h in Headers */,
-				D8554F5C1F62FDA700687A6E /* animate.h in Headers */,
-				D85550291F62FDA700687A6E /* stream-private.h in Headers */,
-				D8554F671F62FDA700687A6E /* cache-private.h in Headers */,
-				D8554FB01F62FDA700687A6E /* geometry.h in Headers */,
-				D8554F571F62FDA700687A6E /* accelerate-kernels-private.h in Headers */,
-				D8554FE71F62FDA700687A6E /* nt-base-private.h in Headers */,
-				D8554F8E1F62FDA700687A6E /* delegate-private.h in Headers */,
-				D855500F1F62FDA700687A6E /* registry.h in Headers */,
-				D855501A1F62FDA700687A6E /* segment.h in Headers */,
-				D85550091F62FDA700687A6E /* random-private.h in Headers */,
-				D8554FD01F62FDA700687A6E /* matrix-private.h in Headers */,
-				D8554F881F62FDA700687A6E /* configure.h in Headers */,
-				D8554F9D1F62FDA700687A6E /* draw.h in Headers */,
-				D8554FC51F62FDA700687A6E /* log.h in Headers */,
-				D85550031F62FDA700687A6E /* quantize.h in Headers */,
-				D8554FCE1F62FDA700687A6E /* magick.h in Headers */,
-				D8554FF51F62FDA700687A6E /* pixel-private.h in Headers */,
-				D85550491F62FDA700687A6E /* vms.h in Headers */,
-				D8554F781F62FDA700687A6E /* colormap-private.h in Headers */,
-				D855500C1F62FDA700687A6E /* random_.h in Headers */,
-				D85550261F62FDA700687A6E /* static.h in Headers */,
-				D8554FDE1F62FDA700687A6E /* module.h in Headers */,
-				D8554FEC1F62FDA700687A6E /* opencl-private.h in Headers */,
-				D8554E231F62FD8600687A6E /* psd-private.h in Headers */,
-				D8554FEB1F62FDA700687A6E /* nt-feature.h in Headers */,
-				D8554FCA1F62FDA700687A6E /* magick-config.h in Headers */,
-				D8554FFC1F62FDA700687A6E /* prepress.h in Headers */,
-				D85550471F62FDA700687A6E /* vision.h in Headers */,
-				D8554F9A1F62FDA700687A6E /* distribute-cache.h in Headers */,
-				D8554FBB1F62FDA700687A6E /* layer.h in Headers */,
-				D8554F5A1F62FDA700687A6E /* animate-private.h in Headers */,
-				D8554F6B1F62FDA700687A6E /* cache.h in Headers */,
-				D8554FD71F62FDA700687A6E /* methods-private.h in Headers */,
-				D85550451F62FDA700687A6E /* version.h in Headers */,
-				D8554F721F62FDA700687A6E /* coder-private.h in Headers */,
-				D855504F1F62FDA700687A6E /* xml-tree.h in Headers */,
-				D8554FC21F62FDA700687A6E /* locale_.h in Headers */,
-				D8554F901F62FDA700687A6E /* delegate.h in Headers */,
-				D85550201F62FDA700687A6E /* signature-private.h in Headers */,
-				D85550421F62FDA700687A6E /* utility.h in Headers */,
-				D855501D1F62FDA700687A6E /* semaphore.h in Headers */,
-				D8554F6D1F62FDA700687A6E /* channel.h in Headers */,
-				D8554FB51F62FDA700687A6E /* image-private.h in Headers */,
-				D8554F971F62FDA700687A6E /* distort.h in Headers */,
-				D8554F841F62FDA700687A6E /* compress.h in Headers */,
-				D8554F741F62FDA700687A6E /* coder.h in Headers */,
-				D8554FD91F62FDA700687A6E /* mime-private.h in Headers */,
-				D85550131F62FDA700687A6E /* resize-private.h in Headers */,
-				D8554FEF1F62FDA700687A6E /* option-private.h in Headers */,
-				D8554FC01F62FDA700687A6E /* locale-private.h in Headers */,
-				D8554FEE1F62FDA700687A6E /* opencl.h in Headers */,
-				D8554F5F1F62FDA700687A6E /* annotate.h in Headers */,
-				D8554F7D1F62FDA700687A6E /* colorspace.h in Headers */,
-				D855504A1F62FDA700687A6E /* widget-private.h in Headers */,
-				D8554FBF1F62FDA700687A6E /* list.h in Headers */,
-				D8554FA81F62FDA700687A6E /* fourier.h in Headers */,
-				D855503D1F62FDA700687A6E /* type-private.h in Headers */,
-				D8554FD61F62FDA700687A6E /* method-attribute.h in Headers */,
-				D8554FE91F62FDA700687A6E /* nt-base.h in Headers */,
-				D8554F821F62FDA700687A6E /* composite.h in Headers */,
-				D855500D1F62FDA700687A6E /* registry-private.h in Headers */,
-				D85550401F62FDA700687A6E /* utility-private.h in Headers */,
-				D8554FC31F62FDA700687A6E /* log-private.h in Headers */,
-				D8554FB91F62FDA700687A6E /* image.h in Headers */,
-				D8554FA11F62FDA700687A6E /* enhance.h in Headers */,
-				D8554FF11F62FDA700687A6E /* option.h in Headers */,
-				D8554F851F62FDA700687A6E /* config.h in Headers */,
-				D8554F801F62FDA700687A6E /* composite-private.h in Headers */,
-				D85550101F62FDA700687A6E /* resample-private.h in Headers */,
-				D8554FB21F62FDA700687A6E /* histogram.h in Headers */,
-				D85550011F62FDA700687A6E /* property.h in Headers */,
-				D855503F1F62FDA700687A6E /* type.h in Headers */,
-				D8554F631F62FDA700687A6E /* attribute.h in Headers */,
-				D8554F7A1F62FDA700687A6E /* colormap.h in Headers */,
-				D8554F6F1F62FDA700687A6E /* cipher.h in Headers */,
-				D8554FE61F62FDA700687A6E /* morphology.h in Headers */,
-				D855504C1F62FDA700687A6E /* widget.h in Headers */,
-				D8554F8B1F62FDA700687A6E /* constitute.h in Headers */,
-				D855500B1F62FDA700687A6E /* random_-private.h in Headers */,
-				D8554F981F62FDA700687A6E /* distribute-cache-private.h in Headers */,
-				D8554F771F62FDA700687A6E /* color.h in Headers */,
-				D8554FAC1F62FDA700687A6E /* gem-private.h in Headers */,
-				D8554FA91F62FDA700687A6E /* fx-private.h in Headers */,
-				D8554FB41F62FDA700687A6E /* identify.h in Headers */,
-				D855502E1F62FDA700687A6E /* string_.h in Headers */,
-				D8554FD81F62FDA700687A6E /* methods.h in Headers */,
-				D8554F7F1F62FDA700687A6E /* compare.h in Headers */,
-				D85550391F62FDA700687A6E /* token.h in Headers */,
-				D8554F9F1F62FDA700687A6E /* effect.h in Headers */,
-				D8554FF41F62FDA700687A6E /* pixel-accessor.h in Headers */,
-				D8554F691F62FDA700687A6E /* cache-view.h in Headers */,
-				D85550241F62FDA700687A6E /* splay-tree.h in Headers */,
-				D8554F711F62FDA700687A6E /* client.h in Headers */,
-				D8554F9B1F62FDA700687A6E /* draw-private.h in Headers */,
-				D8554F5D1F62FDA700687A6E /* annotate-private.h in Headers */,
-				D8554FC61F62FDA700687A6E /* magic-private.h in Headers */,
-				D8554F641F62FDA700687A6E /* blob-private.h in Headers */,
-				D85550181F62FDA700687A6E /* resource_.h in Headers */,
-				D8554FCF1F62FDA700687A6E /* MagickCore.h in Headers */,
-				D855503A1F62FDA700687A6E /* transform-private.h in Headers */,
-				D8554F751F62FDA700687A6E /* color-private.h in Headers */,
-				D8554F8D1F62FDA700687A6E /* decorate.h in Headers */,
-				D85550361F62FDA700687A6E /* timer.h in Headers */,
-				D85550501F62FDA700687A6E /* xwindow-private.h in Headers */,
-				D8554F611F62FDA700687A6E /* artifact.h in Headers */,
-				D8554FD31F62FDA700687A6E /* memory-private.h in Headers */,
-				D855502F1F62FDA700687A6E /* studio.h in Headers */,
-				D8554FAE1F62FDA700687A6E /* gem.h in Headers */,
-				D85550431F62FDA700687A6E /* version-private.h in Headers */,
-				D8554FB71F62FDA700687A6E /* image-view.h in Headers */,
-				D85550061F62FDA700687A6E /* quantum-private.h in Headers */,
-				D855501F1F62FDA700687A6E /* shear.h in Headers */,
-				D855502C1F62FDA700687A6E /* string-private.h in Headers */,
-				D855502B1F62FDA700687A6E /* stream.h in Headers */,
-				D8554F891F62FDA700687A6E /* constitute-private.h in Headers */,
-				D85550321F62FDA700687A6E /* thread_.h in Headers */,
-				D8554F931F62FDA700687A6E /* display-private.h in Headers */,
-				D8554FC81F62FDA700687A6E /* magic.h in Headers */,
-				D85550341F62FDA700687A6E /* threshold.h in Headers */,
-				D85550151F62FDA700687A6E /* resize.h in Headers */,
-				D8554FBD1F62FDA700687A6E /* linked-list.h in Headers */,
-				D8554FCB1F62FDA700687A6E /* magick-private.h in Headers */,
-				D8554FCC1F62FDA700687A6E /* magick-type.h in Headers */,
-				D8554FE31F62FDA700687A6E /* montage.h in Headers */,
-				D85550521F62FDA700687A6E /* xwindow.h in Headers */,
-				D85550081F62FDA700687A6E /* quantum.h in Headers */,
-				D8554FE11F62FDA700687A6E /* monitor.h in Headers */,
-				D85550221F62FDA700687A6E /* signature.h in Headers */,
-				D8554F861F62FDA700687A6E /* configure-private.h in Headers */,
-				D855504D1F62FDA700687A6E /* xml-tree-private.h in Headers */,
-				D8554FC91F62FDA700687A6E /* magick-baseconfig.h in Headers */,
-				D8554FD51F62FDA700687A6E /* memory_.h in Headers */,
-				D85550121F62FDA700687A6E /* resample.h in Headers */,
-				D8554F7B1F62FDA700687A6E /* colorspace-private.h in Headers */,
-				D8554FF71F62FDA700687A6E /* pixel.h in Headers */,
-				D8554F661F62FDA700687A6E /* blob.h in Headers */,
-				D855501B1F62FDA700687A6E /* semaphore-private.h in Headers */,
-				D855503C1F62FDA700687A6E /* transform.h in Headers */,
-				D8554FFA1F62FDA700687A6E /* policy.h in Headers */,
-				D8554FE41F62FDA700687A6E /* morphology-private.h in Headers */,
-				D8554FDC1F62FDA700687A6E /* module-private.h in Headers */,
-				D8554FF81F62FDA700687A6E /* policy-private.h in Headers */,
-				D8554FA41F62FDA700687A6E /* exception.h in Headers */,
-				D85550301F62FDA700687A6E /* thread-private.h in Headers */,
-				D85550161F62FDA700687A6E /* resource-private.h in Headers */,
-				D8554F951F62FDA700687A6E /* display.h in Headers */,
-				D8554FF31F62FDA700687A6E /* paint.h in Headers */,
-				D8554FDB1F62FDA700687A6E /* mime.h in Headers */,
-				D85550281F62FDA700687A6E /* statistic.h in Headers */,
-				D8554F921F62FDA700687A6E /* deprecate.h in Headers */,
-				D8554FD21F62FDA700687A6E /* matrix.h in Headers */,
-				D8554FFF1F62FDA700687A6E /* profile.h in Headers */,
-				D8554F581F62FDA700687A6E /* accelerate-private.h in Headers */,
-				D8554FAB1F62FDA700687A6E /* fx.h in Headers */,
-				D8554FDF1F62FDA700687A6E /* monitor-private.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		D813C5911F55BFCA0036DB51 /* MagickCore */ = {
 			isa = PBXNativeTarget;
@@ -1696,7 +1356,6 @@
 			buildPhases = (
 				D813C58E1F55BFCA0036DB51 /* Sources */,
 				D813C58F1F55BFCA0036DB51 /* Frameworks */,
-				D813C5901F55BFCA0036DB51 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1713,7 +1372,6 @@
 			buildPhases = (
 				D813C70F1F55C39E0036DB51 /* Sources */,
 				D813C7101F55C39E0036DB51 /* Frameworks */,
-				D813C7111F55C39E0036DB51 /* CopyFiles */,
 			);
 			buildRules = (
 			);
