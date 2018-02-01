@@ -6,4 +6,4 @@
 //  Copyright © 2017 KROMTECH ALLIANCE CORP. All rights reserved.
 //
 
-HEADER_SEARCH_PATHS = $(inherited) "${SRCROOT}" "${SRCROOT}/include"
+HEADER_SEARCH_PATHS = $(inherited) ${SRCROOT} ${SRCROOT}/include
