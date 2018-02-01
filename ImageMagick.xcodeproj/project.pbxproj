@@ -267,12 +267,6 @@
 		D813C6FE1F55C1700036DB51 /* MagickCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MagickCore.xcconfig; sourceTree = "<group>"; };
 		D813C7131F55C39E0036DB51 /* libMagickWand.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagickWand.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D813C78C1F55C4BB0036DB51 /* MagickWand.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MagickWand.xcconfig; sourceTree = "<group>"; };
-		D813C8D01F55CD110036DB51 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		D813C8D21F55CD3E0036DB51 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		D813C8D41F55CFDA0036DB51 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		D813C8D61F55CFFF0036DB51 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
-		D83733401F570FC4001588D5 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		D83733421F570FE3001588D5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		D8554D481F62FD7100687A6E /* analyze.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = analyze.c; sourceTree = "<group>"; };
 		D8554D491F62FD7100687A6E /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		D8554D4C1F62FD8500687A6E /* aai.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aai.c; sourceTree = "<group>"; };
@@ -819,12 +813,6 @@
 			children = (
 				D8DF00BD1F71325E0013DB97 /* libjpeg.a */,
 				D8DF00BE1F71325E0013DB97 /* libpng.a */,
-				D83733421F570FE3001588D5 /* libiconv.tbd */,
-				D83733401F570FC4001588D5 /* libxml2.tbd */,
-				D813C8D61F55CFFF0036DB51 /* liblzma.tbd */,
-				D813C8D41F55CFDA0036DB51 /* libxml2.2.tbd */,
-				D813C8D21F55CD3E0036DB51 /* libbz2.tbd */,
-				D813C8D01F55CD110036DB51 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
