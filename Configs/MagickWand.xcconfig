@@ -6,4 +6,5 @@
 //  Copyright © 2017 KROMTECH ALLIANCE CORP. All rights reserved.
 //
 
-HEADER_SEARCH_PATHS = $(inherited) ${SRCROOT}
+VALID_ARCHS = arm64 armv7 armv7s
+SUPPORTED_PLATFORMS = iphonesimulator iphoneos
