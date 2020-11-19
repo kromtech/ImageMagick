@@ -9,7 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-//renamed ExceptionInfo type to MKExceptionInfo to avoid conflicting with union from system framework with the same name.
+//redefined ExceptionInfo type to IMExceptionInfo to avoid conflicting with union name in macOS CarbonCore framework.
 #define IMExceptionInfo ExceptionInfo
 
 #endif /* PrefixHeader_pch */

@@ -6,5 +6,5 @@
 //  Copyright © 2017 KROMTECH ALLIANCE CORP. All rights reserved.
 //
 
-VALID_ARCHS = arm64 armv7 armv7s
+VALID_ARCHS = arm64
 SUPPORTED_PLATFORMS = iphonesimulator iphoneos
