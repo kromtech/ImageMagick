@@ -361,6 +361,7 @@ extern WandExport MagickWand
 
 extern WandExport MagickBlurCalcutationResult
 	MagickIsImageBlurred(MagickWand *, const unsigned char threshold, const MagickBooleanType *canceledCalculation);
+extern WandExport unsigned char MagickImageMaxSharpness(MagickWand *wand, const MagickBooleanType *cancelCalculation);
 extern WandExport OrientationType
   MagickGetImageOrientation(MagickWand *);
 

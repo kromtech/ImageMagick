@@ -7,6 +7,254 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946655CB24CB2D20007584C9 /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC91F62FDA700687A6E /* magick.c */; };
+		946655CC24CB2D20007584C9 /* gray.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6D1F62FD8500687A6E /* gray.c */; };
+		946655CD24CB2D20007584C9 /* annotate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E581F62FDA700687A6E /* annotate.c */; };
+		946655CE24CB2D20007584C9 /* sgi.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAE1F62FD8600687A6E /* sgi.c */; };
+		946655CF24CB2D20007584C9 /* sfw.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAD1F62FD8600687A6E /* sfw.c */; };
+		946655D024CB2D20007584C9 /* pict.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9A1F62FD8600687A6E /* pict.c */; };
+		946655D124CB2D20007584C9 /* nt-base.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE91F62FDA700687A6E /* nt-base.c */; };
+		946655D224CB2D20007584C9 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8E1F62FD8600687A6E /* null.c */; };
+		946655D324CB2D20007584C9 /* opencl.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EEE1F62FDA700687A6E /* opencl.c */; };
+		946655D424CB2D20007584C9 /* feature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9F1F62FDA700687A6E /* feature.c */; };
+		946655D524CB2D20007584C9 /* fpx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6A1F62FD8500687A6E /* fpx.c */; };
+		946655D624CB2D20007584C9 /* xps.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCA1F62FD8600687A6E /* xps.c */; };
+		946655D724CB2D20007584C9 /* constitute.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E841F62FDA700687A6E /* constitute.c */; };
+		946655D824CB2D20007584C9 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E6A1F62FDA700687A6E /* client.c */; };
+		946655D924CB2D20007584C9 /* pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D951F62FD8600687A6E /* pcx.c */; };
+		946655DA24CB2D20007584C9 /* xml-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F511F62FDA700687A6E /* xml-tree.c */; };
+		946655DB24CB2D20007584C9 /* tiff.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB51F62FD8600687A6E /* tiff.c */; };
+		946655DC24CB2D20007584C9 /* jp2.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D791F62FD8600687A6E /* jp2.c */; };
+		946655DD24CB2D20007584C9 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E961F62FDA700687A6E /* draw.c */; };
+		946655DE24CB2D20007584C9 /* dps.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D611F62FD8500687A6E /* dps.c */; };
+		946655DF24CB2D20007584C9 /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB81F62FDA700687A6E /* linked-list.c */; };
+		946655E024CB2D20007584C9 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E7D1F62FDA700687A6E /* compress.c */; };
+		946655E124CB2D20007584C9 /* cip.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D551F62FD8500687A6E /* cip.c */; };
+		946655E224CB2D20007584C9 /* xc.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC71F62FD8600687A6E /* xc.c */; };
+		946655E324CB2D20007584C9 /* dds.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5B1F62FD8500687A6E /* dds.c */; };
+		946655E424CB2D20007584C9 /* ps.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9F1F62FD8600687A6E /* ps.c */; };
+		946655E524CB2D20007584C9 /* rgf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA71F62FD8600687A6E /* rgf.c */; };
+		946655E624CB2D20007584C9 /* cache-view.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E621F62FDA700687A6E /* cache-view.c */; };
+		946655E724CB2D20007584C9 /* cals.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D521F62FD8500687A6E /* cals.c */; };
+		946655E824CB2D20007584C9 /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE31F62FDA700687A6E /* montage.c */; };
+		946655E924CB2D20007584C9 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D821F62FD8600687A6E /* mask.c */; };
+		946655EA24CB2D20007584C9 /* dng.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5F1F62FD8500687A6E /* dng.c */; };
+		946655EB24CB2D20007584C9 /* plasma.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9C1F62FD8600687A6E /* plasma.c */; };
+		946655EC24CB2D20007584C9 /* xbm.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC61F62FD8600687A6E /* xbm.c */; };
+		946655ED24CB2D20007584C9 /* exr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D651F62FD8500687A6E /* exr.c */; };
+		946655EE24CB2D20007584C9 /* fd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D671F62FD8500687A6E /* fd.c */; };
+		946655EF24CB2D20007584C9 /* uil.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBA1F62FD8600687A6E /* uil.c */; };
+		946655F024CB2D20007584C9 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC01F62FDA700687A6E /* log.c */; };
+		946655F124CB2D20007584C9 /* splay-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F241F62FDA700687A6E /* splay-tree.c */; };
+		946655F224CB2D20007584C9 /* jnx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D781F62FD8500687A6E /* jnx.c */; };
+		946655F324CB2D20007584C9 /* xwd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCC1F62FD8600687A6E /* xwd.c */; };
+		946655F424CB2D20007584C9 /* caption.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D531F62FD8500687A6E /* caption.c */; };
+		946655F524CB2D20007584C9 /* art.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4D1F62FD8500687A6E /* art.c */; };
+		946655F624CB2D20007584C9 /* bgr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4F1F62FD8500687A6E /* bgr.c */; };
+		946655F724CB2D20007584C9 /* url.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBB1F62FD8600687A6E /* url.c */; };
+		946655F824CB2D20007584C9 /* cut.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D591F62FD8500687A6E /* cut.c */; };
+		946655F924CB2D20007584C9 /* pnm.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9E1F62FD8600687A6E /* pnm.c */; };
+		946655FA24CB2D20007584C9 /* mtv.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8C1F62FD8600687A6E /* mtv.c */; };
+		946655FB24CB2D20007584C9 /* tile.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB61F62FD8600687A6E /* tile.c */; };
+		946655FC24CB2D20007584C9 /* cmyk.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D581F62FD8500687A6E /* cmyk.c */; };
+		946655FD24CB2D20007584C9 /* type.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F3F1F62FDA700687A6E /* type.c */; };
+		946655FE24CB2D20007584C9 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D741F62FD8500687A6E /* info.c */; };
+		946655FF24CB2D20007584C9 /* sct.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAC1F62FD8600687A6E /* sct.c */; };
+		9466560024CB2D20007584C9 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F451F62FDA700687A6E /* version.c */; };
+		9466560124CB2D20007584C9 /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E781F62FDA700687A6E /* compare.c */; };
+		9466560224CB2D20007584C9 /* statistic.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F281F62FDA700687A6E /* statistic.c */; };
+		9466560324CB2D20007584C9 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E8E1F62FDA700687A6E /* display.c */; };
+		9466560424CB2D20007584C9 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCE1F62FD8600687A6E /* yuv.c */; };
+		9466560524CB2D20007584C9 /* mat.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D831F62FD8600687A6E /* mat.c */; };
+		9466560624CB2D20007584C9 /* jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D771F62FD8500687A6E /* jbig.c */; };
+		9466560724CB2D20007584C9 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EC31F62FDA700687A6E /* magic.c */; };
+		9466560824CB2D20007584C9 /* tga.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB31F62FD8600687A6E /* tga.c */; };
+		9466560924CB2D20007584C9 /* prepress.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFC1F62FDA700687A6E /* prepress.c */; };
+		9466560A24CB2D20007584C9 /* meta.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D851F62FD8600687A6E /* meta.c */; };
+		9466560B24CB2D20007584C9 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB21F62FDA700687A6E /* image.c */; };
+		9466560C24CB2D20007584C9 /* image-view.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB01F62FDA700687A6E /* image-view.c */; };
+		9466560D24CB2D20007584C9 /* inline.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D751F62FD8500687A6E /* inline.c */; };
+		9466560E24CB2D20007584C9 /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E661F62FDA700687A6E /* channel.c */; };
+		9466560F24CB2D20007584C9 /* flif.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D691F62FD8500687A6E /* flif.c */; };
+		9466561024CB2D20007584C9 /* otb.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8F1F62FD8600687A6E /* otb.c */; };
+		9466561124CB2D20007584C9 /* pdb.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D961F62FD8600687A6E /* pdb.c */; };
+		9466561224CB2D20007584C9 /* delegate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E891F62FDA700687A6E /* delegate.c */; };
+		9466561324CB2D20007584C9 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5C1F62FD8500687A6E /* debug.c */; };
+		9466561424CB2D20007584C9 /* viff.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBF1F62FD8600687A6E /* viff.c */; };
+		9466561524CB2D20007584C9 /* configure.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E811F62FDA700687A6E /* configure.c */; };
+		9466561624CB2D20007584C9 /* icon.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D731F62FD8500687A6E /* icon.c */; };
+		9466561724CB2D20007584C9 /* xcf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC81F62FD8600687A6E /* xcf.c */; };
+		9466561824CB2D20007584C9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F2B1F62FDA700687A6E /* stream.c */; };
+		9466561924CB2D20007584C9 /* locale.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EBD1F62FDA700687A6E /* locale.c */; };
+		9466561A24CB2D20007584C9 /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F121F62FDA700687A6E /* resample.c */; };
+		9466561B24CB2D20007584C9 /* quantum.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F081F62FDA700687A6E /* quantum.c */; };
+		9466561C24CB2D20007584C9 /* coder.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E6D1F62FDA700687A6E /* coder.c */; };
+		9466561D24CB2D20007584C9 /* matte.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D841F62FD8600687A6E /* matte.c */; };
+		9466561E24CB2D20007584C9 /* wpg.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC41F62FD8600687A6E /* wpg.c */; };
+		9466561F24CB2D20007584C9 /* morphology.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE61F62FDA700687A6E /* morphology.c */; };
+		9466562024CB2D20007584C9 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D481F62FD7100687A6E /* analyze.c */; };
+		9466562124CB2D20007584C9 /* pwp.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA41F62FD8600687A6E /* pwp.c */; };
+		9466562224CB2D20007584C9 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EE11F62FDA700687A6E /* monitor.c */; };
+		9466562324CB2D20007584C9 /* clip.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D561F62FD8500687A6E /* clip.c */; };
+		9466562424CB2D20007584C9 /* vms.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F4B1F62FDA700687A6E /* vms.c */; };
+		9466562524CB2D20007584C9 /* screenshot.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAB1F62FD8600687A6E /* screenshot.c */; };
+		9466562624CB2D20007584C9 /* label.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D7C1F62FD8600687A6E /* label.c */; };
+		9466562724CB2D20007584C9 /* djvu.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5E1F62FD8500687A6E /* djvu.c */; };
+		9466562824CB2D20007584C9 /* xtrn.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCB1F62FD8600687A6E /* xtrn.c */; };
+		9466562924CB2D20007584C9 /* attribute.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5C1F62FDA700687A6E /* attribute.c */; };
+		9466562A24CB2D20007584C9 /* vicar.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBD1F62FD8600687A6E /* vicar.c */; };
+		9466562B24CB2D20007584C9 /* ipl.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D761F62FD8500687A6E /* ipl.c */; };
+		9466562C24CB2D20007584C9 /* widget.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F4E1F62FDA700687A6E /* widget.c */; };
+		9466562D24CB2D20007584C9 /* distribute-cache.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E931F62FDA700687A6E /* distribute-cache.c */; };
+		9466562E24CB2D20007584C9 /* policy.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFA1F62FDA700687A6E /* policy.c */; };
+		9466562F24CB2D20007584C9 /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D7D1F62FD8600687A6E /* mac.c */; };
+		9466563024CB2D20007584C9 /* nt-feature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EEB1F62FDA700687A6E /* nt-feature.c */; };
+		9466563124CB2D20007584C9 /* rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA61F62FD8600687A6E /* rgb.c */; };
+		9466563224CB2D20007584C9 /* emf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D631F62FD8500687A6E /* emf.c */; };
+		9466563324CB2D20007584C9 /* mvg.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8D1F62FD8600687A6E /* mvg.c */; };
+		9466563424CB2D20007584C9 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D721F62FD8500687A6E /* html.c */; };
+		9466563524CB2D20007584C9 /* property.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F011F62FDA700687A6E /* property.c */; };
+		9466563624CB2D20007584C9 /* shear.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1F1F62FDA700687A6E /* shear.c */; };
+		9466563724CB2D20007584C9 /* colorspace.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E761F62FDA700687A6E /* colorspace.c */; };
+		9466563824CB2D20007584C9 /* pdf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D971F62FD8600687A6E /* pdf.c */; };
+		9466563924CB2D20007584C9 /* mpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D891F62FD8600687A6E /* mpeg.c */; };
+		9466563A24CB2D20007584C9 /* dib.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5D1F62FD8500687A6E /* dib.c */; };
+		9466563B24CB2D20007584C9 /* enhance.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9A1F62FDA700687A6E /* enhance.c */; };
+		9466563C24CB2D20007584C9 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F361F62FDA700687A6E /* timer.c */; };
+		9466563D24CB2D20007584C9 /* sixel.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAF1F62FD8600687A6E /* sixel.c */; };
+		9466563E24CB2D20007584C9 /* static.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F261F62FDA700687A6E /* static.c */; };
+		9466563F24CB2D20007584C9 /* palm.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D901F62FD8600687A6E /* palm.c */; };
+		9466564024CB2D20007584C9 /* profile.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EFF1F62FDA700687A6E /* profile.c */; };
+		9466564124CB2D20007584C9 /* dpx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D621F62FD8500687A6E /* dpx.c */; };
+		9466564224CB2D20007584C9 /* magick.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D7E1F62FD8600687A6E /* magick.c */; };
+		9466564324CB2D20007584C9 /* txt.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB91F62FD8600687A6E /* txt.c */; };
+		9466564424CB2D20007584C9 /* effect.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E981F62FDA700687A6E /* effect.c */; };
+		9466564524CB2D20007584C9 /* dcm.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D5A1F62FD8500687A6E /* dcm.c */; };
+		9466564624CB2D20007584C9 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D701F62FD8500687A6E /* histogram.c */; };
+		9466564724CB2D20007584C9 /* fits.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D681F62FD8500687A6E /* fits.c */; };
+		9466564824CB2D20007584C9 /* deprecate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E8B1F62FDA700687A6E /* deprecate.c */; };
+		9466564924CB2D20007584C9 /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F151F62FDA700687A6E /* resize.c */; };
+		9466564A24CB2D20007584C9 /* mime.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EDB1F62FDA700687A6E /* mime.c */; };
+		9466564B24CB2D20007584C9 /* fax.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D661F62FD8500687A6E /* fax.c */; };
+		9466564C24CB2D20007584C9 /* quantum-export.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F051F62FDA700687A6E /* quantum-export.c */; };
+		9466564D24CB2D20007584C9 /* scr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DAA1F62FD8600687A6E /* scr.c */; };
+		9466564E24CB2D20007584C9 /* artifact.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5A1F62FDA700687A6E /* artifact.c */; };
+		9466564F24CB2D20007584C9 /* paint.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF31F62FDA700687A6E /* paint.c */; };
+		9466565024CB2D20007584C9 /* semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1D1F62FDA700687A6E /* semaphore.c */; };
+		9466565124CB2D20007584C9 /* wbmp.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC11F62FD8600687A6E /* wbmp.c */; };
+		9466565224CB2D20007584C9 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D811F62FD8600687A6E /* map.c */; };
+		9466565324CB2D20007584C9 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA51F62FD8600687A6E /* raw.c */; };
+		9466565424CB2D20007584C9 /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F3C1F62FDA700687A6E /* transform.c */; };
+		9466565524CB2D20007584C9 /* blob.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E5F1F62FDA700687A6E /* blob.c */; };
+		9466565624CB2D20007584C9 /* pgx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D991F62FD8600687A6E /* pgx.c */; };
+		9466565724CB2D20007584C9 /* jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D7A1F62FD8600687A6E /* jpeg.c */; };
+		9466565824CB2D20007584C9 /* psd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA31F62FD8600687A6E /* psd.c */; };
+		9466565924CB2D20007584C9 /* option.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF11F62FDA700687A6E /* option.c */; };
+		9466565A24CB2D20007584C9 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E641F62FDA700687A6E /* cache.c */; };
+		9466565B24CB2D20007584C9 /* vips.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC01F62FD8600687A6E /* vips.c */; };
+		9466565C24CB2D20007584C9 /* cin.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D541F62FD8500687A6E /* cin.c */; };
+		9466565D24CB2D20007584C9 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F321F62FDA700687A6E /* thread.c */; };
+		9466565E24CB2D20007584C9 /* clipboard.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D571F62FD8500687A6E /* clipboard.c */; };
+		9466565F24CB2D20007584C9 /* quantum-import.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F061F62FDA700687A6E /* quantum-import.c */; };
+		9466566024CB2D20007584C9 /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F391F62FDA700687A6E /* token.c */; };
+		9466566124CB2D20007584C9 /* vid.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBE1F62FD8600687A6E /* vid.c */; };
+		9466566224CB2D20007584C9 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9D1F62FD8600687A6E /* png.c */; };
+		9466566324CB2D20007584C9 /* composite.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E7B1F62FDA700687A6E /* composite.c */; };
+		9466566424CB2D20007584C9 /* pcl.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D941F62FD8600687A6E /* pcl.c */; };
+		9466566524CB2D20007584C9 /* miff.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D861F62FD8600687A6E /* miff.c */; };
+		9466566624CB2D20007584C9 /* pattern.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D921F62FD8600687A6E /* pattern.c */; };
+		9466566724CB2D20007584C9 /* pes.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D981F62FD8600687A6E /* pes.c */; };
+		9466566824CB2D20007584C9 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F0F1F62FDA700687A6E /* registry.c */; };
+		9466566924CB2D20007584C9 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EBA1F62FDA700687A6E /* list.c */; };
+		9466566A24CB2D20007584C9 /* ps2.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA01F62FD8600687A6E /* ps2.c */; };
+		9466566B24CB2D20007584C9 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554ED21F62FDA700687A6E /* matrix.c */; };
+		9466566C24CB2D20007584C9 /* ycbcr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DCD1F62FD8600687A6E /* ycbcr.c */; };
+		9466566D24CB2D20007584C9 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EAD1F62FDA700687A6E /* identify.c */; };
+		9466566E24CB2D20007584C9 /* ept.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D641F62FD8500687A6E /* ept.c */; };
+		9466566F24CB2D20007584C9 /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F221F62FDA700687A6E /* signature.c */; };
+		9466567024CB2D20007584C9 /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F181F62FDA700687A6E /* resource.c */; };
+		9466567124CB2D20007584C9 /* sun.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB11F62FD8600687A6E /* sun.c */; };
+		9466567224CB2D20007584C9 /* fx.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA41F62FDA700687A6E /* fx.c */; };
+		9466567324CB2D20007584C9 /* rla.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA81F62FD8600687A6E /* rla.c */; };
+		9466567424CB2D20007584C9 /* distort.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E901F62FDA700687A6E /* distort.c */; };
+		9466567524CB2D20007584C9 /* xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC91F62FD8600687A6E /* xpm.c */; };
+		9466567624CB2D20007584C9 /* vision.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F491F62FDA700687A6E /* vision.c */; };
+		9466567724CB2D20007584C9 /* aai.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4C1F62FD8500687A6E /* aai.c */; };
+		9466567824CB2D20007584C9 /* mpc.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D881F62FD8600687A6E /* mpc.c */; };
+		9466567924CB2D20007584C9 /* accelerate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E531F62FDA700687A6E /* accelerate.c */; };
+		9466567A24CB2D20007584C9 /* braille.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D511F62FD8500687A6E /* braille.c */; };
+		9466567B24CB2D20007584C9 /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E681F62FDA700687A6E /* cipher.c */; };
+		9466567C24CB2D20007584C9 /* tim.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB71F62FD8600687A6E /* tim.c */; };
+		9466567D24CB2D20007584C9 /* pango.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D911F62FD8600687A6E /* pango.c */; };
+		9466567E24CB2D20007584C9 /* ps3.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA11F62FD8600687A6E /* ps3.c */; };
+		9466567F24CB2D20007584C9 /* bmp.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D501F62FD8500687A6E /* bmp.c */; };
+		9466568024CB2D20007584C9 /* thumbnail.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB41F62FD8600687A6E /* thumbnail.c */; };
+		9466568124CB2D20007584C9 /* geometry.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA91F62FDA700687A6E /* geometry.c */; };
+		9466568224CB2D20007584C9 /* hdr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6F1F62FD8500687A6E /* hdr.c */; };
+		9466568324CB2D20007584C9 /* wmf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC31F62FD8600687A6E /* wmf.c */; };
+		9466568424CB2D20007584C9 /* gem.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA71F62FDA700687A6E /* gem.c */; };
+		9466568524CB2D20007584C9 /* hald.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6E1F62FD8500687A6E /* hald.c */; };
+		9466568624CB2D20007584C9 /* decorate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E861F62FDA700687A6E /* decorate.c */; };
+		9466568724CB2D20007584C9 /* svg.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB21F62FD8600687A6E /* svg.c */; };
+		9466568824CB2D20007584C9 /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E701F62FDA700687A6E /* color.c */; };
+		9466568924CB2D20007584C9 /* gif.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6B1F62FD8500687A6E /* gif.c */; };
+		9466568A24CB2D20007584C9 /* dot.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D601F62FD8500687A6E /* dot.c */; };
+		9466568B24CB2D20007584C9 /* segment.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F1A1F62FDA700687A6E /* segment.c */; };
+		9466568C24CB2D20007584C9 /* gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D6C1F62FD8500687A6E /* gradient.c */; };
+		9466568D24CB2D20007584C9 /* fourier.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EA11F62FDA700687A6E /* fourier.c */; };
+		9466568E24CB2D20007584C9 /* layer.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EB51F62FDA700687A6E /* layer.c */; };
+		9466568F24CB2D20007584C9 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F421F62FDA700687A6E /* utility.c */; };
+		9466569024CB2D20007584C9 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F0B1F62FDA700687A6E /* random.c */; };
+		9466569124CB2D20007584C9 /* colormap.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E731F62FDA700687A6E /* colormap.c */; };
+		9466569224CB2D20007584C9 /* rle.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DA91F62FD8600687A6E /* rle.c */; };
+		9466569324CB2D20007584C9 /* hrz.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D711F62FD8500687A6E /* hrz.c */; };
+		9466569424CB2D20007584C9 /* pixel.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EF71F62FDA700687A6E /* pixel.c */; };
+		9466569524CB2D20007584C9 /* stegano.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB01F62FD8600687A6E /* stegano.c */; };
+		9466569624CB2D20007584C9 /* exception.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E9D1F62FDA700687A6E /* exception.c */; };
+		9466569724CB2D20007584C9 /* module.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EDE1F62FDA700687A6E /* module.c */; };
+		9466569824CB2D20007584C9 /* webp.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC21F62FD8600687A6E /* webp.c */; };
+		9466569924CB2D20007584C9 /* quantize.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F031F62FDA700687A6E /* quantize.c */; };
+		9466569A24CB2D20007584C9 /* threshold.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F341F62FDA700687A6E /* threshold.c */; };
+		9466569B24CB2D20007584C9 /* uyvy.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DBC1F62FD8600687A6E /* uyvy.c */; };
+		9466569C24CB2D20007584C9 /* mpr.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8A1F62FD8600687A6E /* mpr.c */; };
+		9466569D24CB2D20007584C9 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554ED51F62FDA700687A6E /* memory.c */; };
+		9466569E24CB2D20007584C9 /* x.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DC51F62FD8600687A6E /* x.c */; };
+		9466569F24CB2D20007584C9 /* pix.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D9B1F62FD8600687A6E /* pix.c */; };
+		946656A024CB2D20007584C9 /* xwindow.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F551F62FDA700687A6E /* xwindow.c */; };
+		946656A124CB2D20007584C9 /* pcd.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D931F62FD8600687A6E /* pcd.c */; };
+		946656A224CB2D20007584C9 /* avs.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4E1F62FD8500687A6E /* avs.c */; };
+		946656A324CB2D20007584C9 /* mono.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D871F62FD8600687A6E /* mono.c */; };
+		946656A424CB2D20007584C9 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554F2E1F62FDA700687A6E /* string.c */; };
+		946656A524CB2D20007584C9 /* msl.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D8B1F62FD8600687A6E /* msl.c */; };
+		946656A624CB2D20007584C9 /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554E551F62FDA700687A6E /* animate.c */; };
+		946656A724CB2D20007584C9 /* histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554EAB1F62FDA700687A6E /* histogram.c */; };
+		946656A824CB2D20007584C9 /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D7B1F62FD8600687A6E /* json.c */; };
+		946656A924CB2D20007584C9 /* ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554DB81F62FD8600687A6E /* ttf.c */; };
+		946656B324CB2D31007584C9 /* magick-cli.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550601F62FDF900687A6E /* magick-cli.c */; };
+		946656B424CB2D31007584C9 /* wandcli.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550631F62FDFA00687A6E /* wandcli.c */; };
+		946656B524CB2D31007584C9 /* script-token.c in Sources */ = {isa = PBXBuildFile; fileRef = D855505D1F62FDF900687A6E /* script-token.c */; };
+		946656B624CB2D31007584C9 /* deprecate.c in Sources */ = {isa = PBXBuildFile; fileRef = D855505E1F62FDF900687A6E /* deprecate.c */; };
+		946656B724CB2D31007584C9 /* wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D855505A1F62FDF900687A6E /* wand.c */; };
+		946656B824CB2D31007584C9 /* magick-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550921F62FDFC00687A6E /* magick-wand.c */; };
+		946656B924CB2D31007584C9 /* animate.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550531F62FDF800687A6E /* animate.c */; };
+		946656BA24CB2D31007584C9 /* conjure.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550691F62FDFA00687A6E /* conjure.c */; };
+		946656BB24CB2D31007584C9 /* magick-image.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550711F62FDFB00687A6E /* magick-image.c */; };
+		946656BC24CB2D31007584C9 /* identify.c in Sources */ = {isa = PBXBuildFile; fileRef = D855506C1F62FDFB00687A6E /* identify.c */; };
+		946656BD24CB2D31007584C9 /* magick-property.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550721F62FDFB00687A6E /* magick-property.c */; };
+		946656BE24CB2D31007584C9 /* operation.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550581F62FDF800687A6E /* operation.c */; };
+		946656BF24CB2D31007584C9 /* compare.c in Sources */ = {isa = PBXBuildFile; fileRef = D855506E1F62FDFB00687A6E /* compare.c */; };
+		946656C024CB2D31007584C9 /* composite.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550651F62FDFA00687A6E /* composite.c */; };
+		946656C124CB2D31007584C9 /* drawing-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D855505F1F62FDF900687A6E /* drawing-wand.c */; };
+		946656C224CB2D31007584C9 /* pixel-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550731F62FDFC00687A6E /* pixel-wand.c */; };
+		946656C324CB2D31007584C9 /* mogrify.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550551F62FDF800687A6E /* mogrify.c */; };
+		946656C424CB2D31007584C9 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = D855505B1F62FDF900687A6E /* display.c */; };
+		946656C524CB2D31007584C9 /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = D855506A1F62FDFA00687A6E /* convert.c */; };
+		946656C624CB2D31007584C9 /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550901F62FDFC00687A6E /* montage.c */; };
+		946656C724CB2D31007584C9 /* wand-view.c in Sources */ = {isa = PBXBuildFile; fileRef = D855506F1F62FDFB00687A6E /* wand-view.c */; };
+		946656C824CB2D31007584C9 /* pixel-iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550641F62FDFA00687A6E /* pixel-iterator.c */; };
+		946656C924CB2D31007584C9 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550571F62FDF800687A6E /* stream.c */; };
+		946656CA24CB2D31007584C9 /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = D855506D1F62FDFB00687A6E /* import.c */; };
+		946656D324CB5376007584C9 /* libMagickCore_macos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946656B024CB2D20007584C9 /* libMagickCore_macos.a */; };
 		D8554D4A1F62FD7200687A6E /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D481F62FD7100687A6E /* analyze.c */; };
 		D8554DCF1F62FD8600687A6E /* aai.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4C1F62FD8500687A6E /* aai.c */; };
 		D8554DD01F62FD8600687A6E /* art.c in Sources */ = {isa = PBXBuildFile; fileRef = D8554D4D1F62FD8500687A6E /* art.c */; };
@@ -254,6 +502,8 @@
 		D85550A91F62FDFD00687A6E /* pixel-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550731F62FDFC00687A6E /* pixel-wand.c */; };
 		D85550B61F62FDFD00687A6E /* montage.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550901F62FDFC00687A6E /* montage.c */; };
 		D85550B71F62FDFD00687A6E /* magick-wand.c in Sources */ = {isa = PBXBuildFile; fileRef = D85550921F62FDFC00687A6E /* magick-wand.c */; };
+		D8A4AC9B256407E200980D84 /* macos_libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4AC98256407CB00980D84 /* macos_libjpeg.a */; };
+		D8A4AC9C256407E200980D84 /* macos_libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A4AC97256407CB00980D84 /* macos_libpng.a */; };
 		D8DF00BF1F71325E0013DB97 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DF00BD1F71325E0013DB97 /* libjpeg.a */; };
 		D8DF00C01F71325E0013DB97 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DF00BE1F71325E0013DB97 /* libpng.a */; };
 		D8E3A1241F713B6D009B22CD /* libMagickCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D813C5921F55BFCA0036DB51 /* libMagickCore.a */; };
@@ -263,6 +513,9 @@
 		214A5BD71EAA1D6100505143 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		214A5BD81EAA1D6100505143 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		214A5BF61EAA279800505143 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		946655C824CB299A007584C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		946656B024CB2D20007584C9 /* libMagickCore_macos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagickCore_macos.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		946656D024CB2D31007584C9 /* libMagickWand_macos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagickWand_macos.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D813C5921F55BFCA0036DB51 /* libMagickCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagickCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D813C6FE1F55C1700036DB51 /* MagickCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MagickCore.xcconfig; sourceTree = "<group>"; };
 		D813C7131F55C39E0036DB51 /* libMagickWand.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagickWand.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -749,11 +1002,30 @@
 		D85550CD1F62FF5700687A6E /* wandcli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wandcli.h; sourceTree = "<group>"; };
 		D85550CE1F62FF5700687A6E /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
 		D85550CF1F63004000687A6E /* wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wand.h; sourceTree = "<group>"; };
+		D8A4AC97256407CB00980D84 /* macos_libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = macos_libpng.a; path = lib/debug/macos_libpng.a; sourceTree = "<group>"; };
+		D8A4AC98256407CB00980D84 /* macos_libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = macos_libjpeg.a; path = lib/debug/macos_libjpeg.a; sourceTree = "<group>"; };
 		D8DF00BD1F71325E0013DB97 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = lib/debug/libjpeg.a; sourceTree = "<group>"; };
 		D8DF00BE1F71325E0013DB97 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = lib/debug/libpng.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		946656AA24CB2D20007584C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A4AC9B256407E200980D84 /* macos_libjpeg.a in Frameworks */,
+				D8A4AC9C256407E200980D84 /* macos_libpng.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946656CB24CB2D31007584C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946656D324CB5376007584C9 /* libMagickCore_macos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D813C58F1F55BFCA0036DB51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -789,6 +1061,7 @@
 		21CF41F41EA4E7E100D74F8A = {
 			isa = PBXGroup;
 			children = (
+				946655C824CB299A007584C9 /* PrefixHeader.pch */,
 				D8554E501F62FDA600687A6E /* MagickCore */,
 				D8554D4B1F62FD8500687A6E /* coders */,
 				D8554D471F62FD7100687A6E /* filters */,
@@ -804,6 +1077,8 @@
 			children = (
 				D813C5921F55BFCA0036DB51 /* libMagickCore.a */,
 				D813C7131F55C39E0036DB51 /* libMagickWand.a */,
+				946656B024CB2D20007584C9 /* libMagickCore_macos.a */,
+				946656D024CB2D31007584C9 /* libMagickWand_macos.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -811,6 +1086,8 @@
 		D813C6FF1F55C35F0036DB51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8A4AC98256407CB00980D84 /* macos_libjpeg.a */,
+				D8A4AC97256407CB00980D84 /* macos_libpng.a */,
 				D8DF00BD1F71325E0013DB97 /* libjpeg.a */,
 				D8DF00BE1F71325E0013DB97 /* libpng.a */,
 			);
@@ -1338,6 +1615,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		946655C924CB2D20007584C9 /* MagickCore_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946656AD24CB2D20007584C9 /* Build configuration list for PBXNativeTarget "MagickCore_macos" */;
+			buildPhases = (
+				946655CA24CB2D20007584C9 /* Sources */,
+				946656AA24CB2D20007584C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagickCore_macos;
+			productName = MagickCore;
+			productReference = 946656B024CB2D20007584C9 /* libMagickCore_macos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		946656B124CB2D31007584C9 /* MagickWand_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946656CD24CB2D31007584C9 /* Build configuration list for PBXNativeTarget "MagickWand_macos" */;
+			buildPhases = (
+				946656B224CB2D31007584C9 /* Sources */,
+				946656CB24CB2D31007584C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagickWand_macos;
+			productName = MagickWand;
+			productReference = 946656D024CB2D31007584C9 /* libMagickWand_macos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		D813C5911F55BFCA0036DB51 /* MagickCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D813C5981F55BFCB0036DB51 /* Build configuration list for PBXNativeTarget "MagickCore" */;
@@ -1393,6 +1702,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 21CF41F41EA4E7E100D74F8A;
@@ -1402,11 +1712,274 @@
 			targets = (
 				D813C5911F55BFCA0036DB51 /* MagickCore */,
 				D813C7121F55C39E0036DB51 /* MagickWand */,
+				946655C924CB2D20007584C9 /* MagickCore_macos */,
+				946656B124CB2D31007584C9 /* MagickWand_macos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		946655CA24CB2D20007584C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946655CB24CB2D20007584C9 /* magick.c in Sources */,
+				946655CC24CB2D20007584C9 /* gray.c in Sources */,
+				946655CD24CB2D20007584C9 /* annotate.c in Sources */,
+				946655CE24CB2D20007584C9 /* sgi.c in Sources */,
+				946655CF24CB2D20007584C9 /* sfw.c in Sources */,
+				946655D024CB2D20007584C9 /* pict.c in Sources */,
+				946655D124CB2D20007584C9 /* nt-base.c in Sources */,
+				946655D224CB2D20007584C9 /* null.c in Sources */,
+				946655D324CB2D20007584C9 /* opencl.c in Sources */,
+				946655D424CB2D20007584C9 /* feature.c in Sources */,
+				946655D524CB2D20007584C9 /* fpx.c in Sources */,
+				946655D624CB2D20007584C9 /* xps.c in Sources */,
+				946655D724CB2D20007584C9 /* constitute.c in Sources */,
+				946655D824CB2D20007584C9 /* client.c in Sources */,
+				946655D924CB2D20007584C9 /* pcx.c in Sources */,
+				946655DA24CB2D20007584C9 /* xml-tree.c in Sources */,
+				946655DB24CB2D20007584C9 /* tiff.c in Sources */,
+				946655DC24CB2D20007584C9 /* jp2.c in Sources */,
+				946655DD24CB2D20007584C9 /* draw.c in Sources */,
+				946655DE24CB2D20007584C9 /* dps.c in Sources */,
+				946655DF24CB2D20007584C9 /* linked-list.c in Sources */,
+				946655E024CB2D20007584C9 /* compress.c in Sources */,
+				946655E124CB2D20007584C9 /* cip.c in Sources */,
+				946655E224CB2D20007584C9 /* xc.c in Sources */,
+				946655E324CB2D20007584C9 /* dds.c in Sources */,
+				946655E424CB2D20007584C9 /* ps.c in Sources */,
+				946655E524CB2D20007584C9 /* rgf.c in Sources */,
+				946655E624CB2D20007584C9 /* cache-view.c in Sources */,
+				946655E724CB2D20007584C9 /* cals.c in Sources */,
+				946655E824CB2D20007584C9 /* montage.c in Sources */,
+				946655E924CB2D20007584C9 /* mask.c in Sources */,
+				946655EA24CB2D20007584C9 /* dng.c in Sources */,
+				946655EB24CB2D20007584C9 /* plasma.c in Sources */,
+				946655EC24CB2D20007584C9 /* xbm.c in Sources */,
+				946655ED24CB2D20007584C9 /* exr.c in Sources */,
+				946655EE24CB2D20007584C9 /* fd.c in Sources */,
+				946655EF24CB2D20007584C9 /* uil.c in Sources */,
+				946655F024CB2D20007584C9 /* log.c in Sources */,
+				946655F124CB2D20007584C9 /* splay-tree.c in Sources */,
+				946655F224CB2D20007584C9 /* jnx.c in Sources */,
+				946655F324CB2D20007584C9 /* xwd.c in Sources */,
+				946655F424CB2D20007584C9 /* caption.c in Sources */,
+				946655F524CB2D20007584C9 /* art.c in Sources */,
+				946655F624CB2D20007584C9 /* bgr.c in Sources */,
+				946655F724CB2D20007584C9 /* url.c in Sources */,
+				946655F824CB2D20007584C9 /* cut.c in Sources */,
+				946655F924CB2D20007584C9 /* pnm.c in Sources */,
+				946655FA24CB2D20007584C9 /* mtv.c in Sources */,
+				946655FB24CB2D20007584C9 /* tile.c in Sources */,
+				946655FC24CB2D20007584C9 /* cmyk.c in Sources */,
+				946655FD24CB2D20007584C9 /* type.c in Sources */,
+				946655FE24CB2D20007584C9 /* info.c in Sources */,
+				946655FF24CB2D20007584C9 /* sct.c in Sources */,
+				9466560024CB2D20007584C9 /* version.c in Sources */,
+				9466560124CB2D20007584C9 /* compare.c in Sources */,
+				9466560224CB2D20007584C9 /* statistic.c in Sources */,
+				9466560324CB2D20007584C9 /* display.c in Sources */,
+				9466560424CB2D20007584C9 /* yuv.c in Sources */,
+				9466560524CB2D20007584C9 /* mat.c in Sources */,
+				9466560624CB2D20007584C9 /* jbig.c in Sources */,
+				9466560724CB2D20007584C9 /* magic.c in Sources */,
+				9466560824CB2D20007584C9 /* tga.c in Sources */,
+				9466560924CB2D20007584C9 /* prepress.c in Sources */,
+				9466560A24CB2D20007584C9 /* meta.c in Sources */,
+				9466560B24CB2D20007584C9 /* image.c in Sources */,
+				9466560C24CB2D20007584C9 /* image-view.c in Sources */,
+				9466560D24CB2D20007584C9 /* inline.c in Sources */,
+				9466560E24CB2D20007584C9 /* channel.c in Sources */,
+				9466560F24CB2D20007584C9 /* flif.c in Sources */,
+				9466561024CB2D20007584C9 /* otb.c in Sources */,
+				9466561124CB2D20007584C9 /* pdb.c in Sources */,
+				9466561224CB2D20007584C9 /* delegate.c in Sources */,
+				9466561324CB2D20007584C9 /* debug.c in Sources */,
+				9466561424CB2D20007584C9 /* viff.c in Sources */,
+				9466561524CB2D20007584C9 /* configure.c in Sources */,
+				9466561624CB2D20007584C9 /* icon.c in Sources */,
+				9466561724CB2D20007584C9 /* xcf.c in Sources */,
+				9466561824CB2D20007584C9 /* stream.c in Sources */,
+				9466561924CB2D20007584C9 /* locale.c in Sources */,
+				9466561A24CB2D20007584C9 /* resample.c in Sources */,
+				9466561B24CB2D20007584C9 /* quantum.c in Sources */,
+				9466561C24CB2D20007584C9 /* coder.c in Sources */,
+				9466561D24CB2D20007584C9 /* matte.c in Sources */,
+				9466561E24CB2D20007584C9 /* wpg.c in Sources */,
+				9466561F24CB2D20007584C9 /* morphology.c in Sources */,
+				9466562024CB2D20007584C9 /* analyze.c in Sources */,
+				9466562124CB2D20007584C9 /* pwp.c in Sources */,
+				9466562224CB2D20007584C9 /* monitor.c in Sources */,
+				9466562324CB2D20007584C9 /* clip.c in Sources */,
+				9466562424CB2D20007584C9 /* vms.c in Sources */,
+				9466562524CB2D20007584C9 /* screenshot.c in Sources */,
+				9466562624CB2D20007584C9 /* label.c in Sources */,
+				9466562724CB2D20007584C9 /* djvu.c in Sources */,
+				9466562824CB2D20007584C9 /* xtrn.c in Sources */,
+				9466562924CB2D20007584C9 /* attribute.c in Sources */,
+				9466562A24CB2D20007584C9 /* vicar.c in Sources */,
+				9466562B24CB2D20007584C9 /* ipl.c in Sources */,
+				9466562C24CB2D20007584C9 /* widget.c in Sources */,
+				9466562D24CB2D20007584C9 /* distribute-cache.c in Sources */,
+				9466562E24CB2D20007584C9 /* policy.c in Sources */,
+				9466562F24CB2D20007584C9 /* mac.c in Sources */,
+				9466563024CB2D20007584C9 /* nt-feature.c in Sources */,
+				9466563124CB2D20007584C9 /* rgb.c in Sources */,
+				9466563224CB2D20007584C9 /* emf.c in Sources */,
+				9466563324CB2D20007584C9 /* mvg.c in Sources */,
+				9466563424CB2D20007584C9 /* html.c in Sources */,
+				9466563524CB2D20007584C9 /* property.c in Sources */,
+				9466563624CB2D20007584C9 /* shear.c in Sources */,
+				9466563724CB2D20007584C9 /* colorspace.c in Sources */,
+				9466563824CB2D20007584C9 /* pdf.c in Sources */,
+				9466563924CB2D20007584C9 /* mpeg.c in Sources */,
+				9466563A24CB2D20007584C9 /* dib.c in Sources */,
+				9466563B24CB2D20007584C9 /* enhance.c in Sources */,
+				9466563C24CB2D20007584C9 /* timer.c in Sources */,
+				9466563D24CB2D20007584C9 /* sixel.c in Sources */,
+				9466563E24CB2D20007584C9 /* static.c in Sources */,
+				9466563F24CB2D20007584C9 /* palm.c in Sources */,
+				9466564024CB2D20007584C9 /* profile.c in Sources */,
+				9466564124CB2D20007584C9 /* dpx.c in Sources */,
+				9466564224CB2D20007584C9 /* magick.c in Sources */,
+				9466564324CB2D20007584C9 /* txt.c in Sources */,
+				9466564424CB2D20007584C9 /* effect.c in Sources */,
+				9466564524CB2D20007584C9 /* dcm.c in Sources */,
+				9466564624CB2D20007584C9 /* histogram.c in Sources */,
+				9466564724CB2D20007584C9 /* fits.c in Sources */,
+				9466564824CB2D20007584C9 /* deprecate.c in Sources */,
+				9466564924CB2D20007584C9 /* resize.c in Sources */,
+				9466564A24CB2D20007584C9 /* mime.c in Sources */,
+				9466564B24CB2D20007584C9 /* fax.c in Sources */,
+				9466564C24CB2D20007584C9 /* quantum-export.c in Sources */,
+				9466564D24CB2D20007584C9 /* scr.c in Sources */,
+				9466564E24CB2D20007584C9 /* artifact.c in Sources */,
+				9466564F24CB2D20007584C9 /* paint.c in Sources */,
+				9466565024CB2D20007584C9 /* semaphore.c in Sources */,
+				9466565124CB2D20007584C9 /* wbmp.c in Sources */,
+				9466565224CB2D20007584C9 /* map.c in Sources */,
+				9466565324CB2D20007584C9 /* raw.c in Sources */,
+				9466565424CB2D20007584C9 /* transform.c in Sources */,
+				9466565524CB2D20007584C9 /* blob.c in Sources */,
+				9466565624CB2D20007584C9 /* pgx.c in Sources */,
+				9466565724CB2D20007584C9 /* jpeg.c in Sources */,
+				9466565824CB2D20007584C9 /* psd.c in Sources */,
+				9466565924CB2D20007584C9 /* option.c in Sources */,
+				9466565A24CB2D20007584C9 /* cache.c in Sources */,
+				9466565B24CB2D20007584C9 /* vips.c in Sources */,
+				9466565C24CB2D20007584C9 /* cin.c in Sources */,
+				9466565D24CB2D20007584C9 /* thread.c in Sources */,
+				9466565E24CB2D20007584C9 /* clipboard.c in Sources */,
+				9466565F24CB2D20007584C9 /* quantum-import.c in Sources */,
+				9466566024CB2D20007584C9 /* token.c in Sources */,
+				9466566124CB2D20007584C9 /* vid.c in Sources */,
+				9466566224CB2D20007584C9 /* png.c in Sources */,
+				9466566324CB2D20007584C9 /* composite.c in Sources */,
+				9466566424CB2D20007584C9 /* pcl.c in Sources */,
+				9466566524CB2D20007584C9 /* miff.c in Sources */,
+				9466566624CB2D20007584C9 /* pattern.c in Sources */,
+				9466566724CB2D20007584C9 /* pes.c in Sources */,
+				9466566824CB2D20007584C9 /* registry.c in Sources */,
+				9466566924CB2D20007584C9 /* list.c in Sources */,
+				9466566A24CB2D20007584C9 /* ps2.c in Sources */,
+				9466566B24CB2D20007584C9 /* matrix.c in Sources */,
+				9466566C24CB2D20007584C9 /* ycbcr.c in Sources */,
+				9466566D24CB2D20007584C9 /* identify.c in Sources */,
+				9466566E24CB2D20007584C9 /* ept.c in Sources */,
+				9466566F24CB2D20007584C9 /* signature.c in Sources */,
+				9466567024CB2D20007584C9 /* resource.c in Sources */,
+				9466567124CB2D20007584C9 /* sun.c in Sources */,
+				9466567224CB2D20007584C9 /* fx.c in Sources */,
+				9466567324CB2D20007584C9 /* rla.c in Sources */,
+				9466567424CB2D20007584C9 /* distort.c in Sources */,
+				9466567524CB2D20007584C9 /* xpm.c in Sources */,
+				9466567624CB2D20007584C9 /* vision.c in Sources */,
+				9466567724CB2D20007584C9 /* aai.c in Sources */,
+				9466567824CB2D20007584C9 /* mpc.c in Sources */,
+				9466567924CB2D20007584C9 /* accelerate.c in Sources */,
+				9466567A24CB2D20007584C9 /* braille.c in Sources */,
+				9466567B24CB2D20007584C9 /* cipher.c in Sources */,
+				9466567C24CB2D20007584C9 /* tim.c in Sources */,
+				9466567D24CB2D20007584C9 /* pango.c in Sources */,
+				9466567E24CB2D20007584C9 /* ps3.c in Sources */,
+				9466567F24CB2D20007584C9 /* bmp.c in Sources */,
+				9466568024CB2D20007584C9 /* thumbnail.c in Sources */,
+				9466568124CB2D20007584C9 /* geometry.c in Sources */,
+				9466568224CB2D20007584C9 /* hdr.c in Sources */,
+				9466568324CB2D20007584C9 /* wmf.c in Sources */,
+				9466568424CB2D20007584C9 /* gem.c in Sources */,
+				9466568524CB2D20007584C9 /* hald.c in Sources */,
+				9466568624CB2D20007584C9 /* decorate.c in Sources */,
+				9466568724CB2D20007584C9 /* svg.c in Sources */,
+				9466568824CB2D20007584C9 /* color.c in Sources */,
+				9466568924CB2D20007584C9 /* gif.c in Sources */,
+				9466568A24CB2D20007584C9 /* dot.c in Sources */,
+				9466568B24CB2D20007584C9 /* segment.c in Sources */,
+				9466568C24CB2D20007584C9 /* gradient.c in Sources */,
+				9466568D24CB2D20007584C9 /* fourier.c in Sources */,
+				9466568E24CB2D20007584C9 /* layer.c in Sources */,
+				9466568F24CB2D20007584C9 /* utility.c in Sources */,
+				9466569024CB2D20007584C9 /* random.c in Sources */,
+				9466569124CB2D20007584C9 /* colormap.c in Sources */,
+				9466569224CB2D20007584C9 /* rle.c in Sources */,
+				9466569324CB2D20007584C9 /* hrz.c in Sources */,
+				9466569424CB2D20007584C9 /* pixel.c in Sources */,
+				9466569524CB2D20007584C9 /* stegano.c in Sources */,
+				9466569624CB2D20007584C9 /* exception.c in Sources */,
+				9466569724CB2D20007584C9 /* module.c in Sources */,
+				9466569824CB2D20007584C9 /* webp.c in Sources */,
+				9466569924CB2D20007584C9 /* quantize.c in Sources */,
+				9466569A24CB2D20007584C9 /* threshold.c in Sources */,
+				9466569B24CB2D20007584C9 /* uyvy.c in Sources */,
+				9466569C24CB2D20007584C9 /* mpr.c in Sources */,
+				9466569D24CB2D20007584C9 /* memory.c in Sources */,
+				9466569E24CB2D20007584C9 /* x.c in Sources */,
+				9466569F24CB2D20007584C9 /* pix.c in Sources */,
+				946656A024CB2D20007584C9 /* xwindow.c in Sources */,
+				946656A124CB2D20007584C9 /* pcd.c in Sources */,
+				946656A224CB2D20007584C9 /* avs.c in Sources */,
+				946656A324CB2D20007584C9 /* mono.c in Sources */,
+				946656A424CB2D20007584C9 /* string.c in Sources */,
+				946656A524CB2D20007584C9 /* msl.c in Sources */,
+				946656A624CB2D20007584C9 /* animate.c in Sources */,
+				946656A724CB2D20007584C9 /* histogram.c in Sources */,
+				946656A824CB2D20007584C9 /* json.c in Sources */,
+				946656A924CB2D20007584C9 /* ttf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946656B224CB2D31007584C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946656B324CB2D31007584C9 /* magick-cli.c in Sources */,
+				946656B424CB2D31007584C9 /* wandcli.c in Sources */,
+				946656B524CB2D31007584C9 /* script-token.c in Sources */,
+				946656B624CB2D31007584C9 /* deprecate.c in Sources */,
+				946656B724CB2D31007584C9 /* wand.c in Sources */,
+				946656B824CB2D31007584C9 /* magick-wand.c in Sources */,
+				946656B924CB2D31007584C9 /* animate.c in Sources */,
+				946656BA24CB2D31007584C9 /* conjure.c in Sources */,
+				946656BB24CB2D31007584C9 /* magick-image.c in Sources */,
+				946656BC24CB2D31007584C9 /* identify.c in Sources */,
+				946656BD24CB2D31007584C9 /* magick-property.c in Sources */,
+				946656BE24CB2D31007584C9 /* operation.c in Sources */,
+				946656BF24CB2D31007584C9 /* compare.c in Sources */,
+				946656C024CB2D31007584C9 /* composite.c in Sources */,
+				946656C124CB2D31007584C9 /* drawing-wand.c in Sources */,
+				946656C224CB2D31007584C9 /* pixel-wand.c in Sources */,
+				946656C324CB2D31007584C9 /* mogrify.c in Sources */,
+				946656C424CB2D31007584C9 /* display.c in Sources */,
+				946656C524CB2D31007584C9 /* convert.c in Sources */,
+				946656C624CB2D31007584C9 /* montage.c in Sources */,
+				946656C724CB2D31007584C9 /* wand-view.c in Sources */,
+				946656C824CB2D31007584C9 /* pixel-iterator.c in Sources */,
+				946656C924CB2D31007584C9 /* stream.c in Sources */,
+				946656CA24CB2D31007584C9 /* import.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D813C58E1F55BFCA0036DB51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1685,11 +2258,34 @@
 			};
 			name = Release;
 		};
+		946656AE24CB2D20007584C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		946656AF24CB2D20007584C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		946656CE24CB2D31007584C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		946656CF24CB2D31007584C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		D813C5991F55BFCB0036DB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D813C6FE1F55C1700036DB51 /* MagickCore.xcconfig */;
 			buildSettings = {
-				SEPARATE_STRIP = NO;
 			};
 			name = Debug;
 		};
@@ -1697,7 +2293,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D813C6FE1F55C1700036DB51 /* MagickCore.xcconfig */;
 			buildSettings = {
-				SEPARATE_STRIP = NO;
 			};
 			name = Release;
 		};
@@ -1705,7 +2300,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D813C78C1F55C4BB0036DB51 /* MagickWand.xcconfig */;
 			buildSettings = {
-				SEPARATE_STRIP = NO;
 			};
 			name = Debug;
 		};
@@ -1713,7 +2307,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D813C78C1F55C4BB0036DB51 /* MagickWand.xcconfig */;
 			buildSettings = {
-				SEPARATE_STRIP = NO;
 			};
 			name = Release;
 		};
@@ -1725,6 +2318,24 @@
 			buildConfigurations = (
 				21CF42101EA4E7E100D74F8A /* Debug */,
 				21CF42111EA4E7E100D74F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946656AD24CB2D20007584C9 /* Build configuration list for PBXNativeTarget "MagickCore_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946656AE24CB2D20007584C9 /* Debug */,
+				946656AF24CB2D20007584C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946656CD24CB2D31007584C9 /* Build configuration list for PBXNativeTarget "MagickWand_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946656CE24CB2D31007584C9 /* Debug */,
+				946656CF24CB2D31007584C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

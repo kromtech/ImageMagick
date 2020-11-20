@@ -551,7 +551,7 @@ extern MagickExport MagickBooleanType
   SyncImagesSettings(ImageInfo *,Image *,ExceptionInfo *);
 	
 extern MagickBlurCalcutationResult
-	IsImageBlurred(Image *, unsigned char, ExceptionInfo *, const MagickBooleanType *);
+	IsImageBlurred(Image *, unsigned char, ExceptionInfo *, const MagickBooleanType *, unsigned char *);
 
 extern MagickExport size_t
   InterpretImageFilename(const ImageInfo *,Image *,const char *,int,char *,

@@ -7039,7 +7039,51 @@ WandExport MagickBlurCalcutationResult MagickIsImageBlurred(MagickWand *wand,
 	
 	MagickSetColorspace(wand, GRAYColorspace);
 	
-	result = IsImageBlurred(image, threshold, exception, cancelCalculation);
+	result = IsImageBlurred(image, threshold, exception, cancelCalculation, NULL);
+	
+	MagickSetColorspace(wand, originalColorspace);
+	
+	return result;
+}
+
+/*
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %                                                                             %
+ %                                                                             %
+ %                                                                             %
+ %   M a g i c k I m a g e M a x S h a r p n e s s                             %
+ %                                                                             %
+ %                                                                             %
+ %                                                                             %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+*/
+
+
+WandExport unsigned char MagickImageMaxSharpness(MagickWand *wand, const MagickBooleanType *cancelCalculation)
+{
+	unsigned char result = 0;
+	
+	assert(wand != (MagickWand *) NULL);
+	assert(wand->signature == MagickWandSignature);
+	if (wand->debug != MagickFalse)
+		
+		(void) LogMagickEvent(WandEvent,GetMagickModule(),"%s",wand->name);
+	
+	Image *image = wand->images;
+	
+	if (image == (Image *) NULL)
+	{
+		ThrowWandException(WandError,"ContainsNoImages",wand->name);
+	}
+	
+	ExceptionInfo *exception = wand->exception;
+	
+	ColorspaceType originalColorspace = MagickGetColorspace(wand);
+	
+	MagickSetColorspace(wand, GRAYColorspace);
+	
+	IsImageBlurred(image, 0, exception, cancelCalculation, &result);
 	
 	MagickSetColorspace(wand, originalColorspace);
 	

@@ -788,9 +788,11 @@ MagickExport MagickBooleanType ClipImagePath(Image *image,const char *pathname,
  %
  %    o shouldCancelCalculation: pointer to boolean value, indicating whether blur calculation should be stopped.
  %
+ %    o maxQuantumSharpnessPtr: pointer to max quantum sharpness of image, if poiner is NULL, blurred calculation could be performed quicker
+ %
  */
 
-MagickExport MagickBlurCalcutationResult IsImageBlurred(Image *image, const unsigned char threshold, ExceptionInfo *exception, const MagickBooleanType *shouldCancelCalculation)
+MagickExport MagickBlurCalcutationResult IsImageBlurred(Image *image, const unsigned char threshold, ExceptionInfo *exception, const MagickBooleanType *shouldCancelCalculation, unsigned char *maxQuantumSharpnessPtr)
 {
 	MagickBlurCalcutationResult result = MagickIsBlurred;
 	
@@ -810,36 +812,37 @@ MagickExport MagickBlurCalcutationResult IsImageBlurred(Image *image, const unsi
 	offset.y = (ssize_t) kernel->height - kernel->y - 1;
 	
 	register ssize_t y = 0;
+	unsigned char maxQuantumSharpness = 0;
+	static const unsigned char kMaxPossibleQuantumSharpness = 255;
+	MagickBooleanType shouldStopIteration = MagickFalse;
+	ssize_t center = (ssize_t)(GetPixelChannels(image) * width * offset.y + GetPixelChannels(image) * offset.x);
 	
 	for (y = 0; y < (ssize_t)image->rows; y++)
 	{
-		if (*shouldCancelCalculation == MagickTrue)
+		if (shouldStopIteration)
 		{
-			result = MagickIsBlurCalculationCanceled;
+			if (*shouldCancelCalculation == MagickTrue)
+			{
+				result = MagickIsBlurCalculationCanceled;
+			}
 			break;
 		}
 		
-		if (result == MagickIsNotBlurred)
-		{
-			break;
-		}
 		register const Quantum *magick_restrict p = NULL;
 		register ssize_t x = 0;
-		ssize_t center = 0;
 		
 		p = GetCacheViewVirtualPixels(image_view, -offset.x, y-offset.y, width, kernel->height, exception);
 		
 		if (p == (const Quantum *)NULL)
 		{
 			result = MagickIsNotBlurred;
+			maxQuantumSharpness = kMaxPossibleQuantumSharpness;
 			break;
 		}
-		
-		center = (ssize_t)(GetPixelChannels(image) * width * offset.y + GetPixelChannels(image) * offset.x);
-		
+	
 		for (x = 0; x < (ssize_t) image->columns; x++)
 		{
-			if (result == MagickFalse)
+			if (shouldStopIteration)
 			{
 				break;
 			}
@@ -924,15 +927,28 @@ MagickExport MagickBlurCalcutationResult IsImageBlurred(Image *image, const unsi
 				Quantum quantum = ClampToQuantum(gamma * pixel);
 				unsigned char quantumSharpness = ScaleQuantumToChar(quantum);
 				
+				if (quantumSharpness > maxQuantumSharpness)
+				{
+					maxQuantumSharpness = quantumSharpness;
+				}
+				
 				if (quantumSharpness > threshold)
 				{
 					result = MagickIsNotBlurred;
-					break;
+					if (maxQuantumSharpnessPtr == NULL || maxQuantumSharpness == kMaxPossibleQuantumSharpness)
+					{
+						shouldStopIteration = MagickTrue;
+    					break;
+					}
 				}
 			}
 			
 			p += GetPixelChannels(image);
 		}
+	}
+	if (maxQuantumSharpnessPtr != NULL)
+	{
+		*maxQuantumSharpnessPtr = maxQuantumSharpness;
 	}
 	kernel = DestroyKernelInfo(kernel);
 	image_view = DestroyCacheView(image_view);

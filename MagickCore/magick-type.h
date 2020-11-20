@@ -191,7 +191,7 @@ typedef enum
 
 typedef struct _BlobInfo BlobInfo;
 
-typedef struct _ExceptionInfo ExceptionInfo;
+typedef struct _ExceptionInfo IMExceptionInfo;
 
 typedef struct _Image Image;
 

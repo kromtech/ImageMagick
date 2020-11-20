@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  ImageMagick
+//
+//  Created by Vitaly Afanasyev on 24.07.2020.
+//  Copyright © 2020 KROMTECH ALLIANCE CORP. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//redefined ExceptionInfo type to IMExceptionInfo to avoid conflicting with union name in macOS CarbonCore framework.
+#define IMExceptionInfo ExceptionInfo
+
+#endif /* PrefixHeader_pch */
